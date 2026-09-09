@@ -8,7 +8,7 @@
 - Based in Madrid, Spain.
 - Co-founder of Hellomatik, founded 28 July 2025. His appointment as joint administrator was published in the Spanish commercial register (BORME) that day, source Agencia Estatal BOE.
 - Co-founder of Kodalogic, founded September 2024, with his brother Daniel Correa.
-- Between December 2022 and November 2024 he delivered more than two hundred Looker Studio dashboards for clients and collected 107 client reviews, every one of them five stars.
+- Between December 2022 and November 2024 he delivered three hundred Looker Studio dashboards for clients and collected 103 verified client reviews.
 - Author of the technical report "How we build a company's ontology" (2026), 26 pages, DOI 10.5281/zenodo.22647735, deposited on Zenodo and Figshare and indexed under his ORCID.
 - Author of the working paper "The machine of the future: what the next tool is, and what it will always need from us", written November 2025, published unchanged September 2026, DOI 10.5281/zenodo.22671771, also on Academia.edu.
 - ORCID: 0009-0003-0657-4419
@@ -18,6 +18,7 @@
 - [Home](https://isaac-correa.github.io/): who he is, the story in short, and the questions people ask with their answers
 - [The story](https://isaac-correa.github.io/story/): the long version, with every date
 - [The companies](https://isaac-correa.github.io/companies/): what Hellomatik and Kodalogic do, who they are for, and where each fact can be checked
+- [Cited by others](https://isaac-correa.github.io/cited/): where third parties used his work as a source — Mordor Intelligence cites him by name; DentistryIQ links to Hellomatik alongside PubMed, PMC and Frontiers
 - [The method](https://isaac-correa.github.io/method/): what the technical report contains and where to read it
 - [Questions people ask](https://isaac-correa.github.io/questions/): ten short answers about him and Hellomatik, each with a source
 - [Copy until you find creativity where there is none](https://isaac-correa.github.io/innovation/): how he thinks about innovation

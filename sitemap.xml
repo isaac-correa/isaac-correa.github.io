@@ -88,4 +88,15 @@
     <image:caption>Isaac Correa, founder of Hellomatik, in Madrid</image:caption>
   </image:image>
 </url>
+<url>
+  <loc>https://isaac-correa.github.io/cited/</loc>
+  <lastmod>2026-09-09</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+  <image:image>
+    <image:loc>https://isaac-correa.github.io/isaac-correa.jpg</image:loc>
+    <image:title>Isaac Correa</image:title>
+    <image:caption>Isaac Correa, founder of Hellomatik, in Madrid</image:caption>
+  </image:image>
+</url>
 </urlset>
