@@ -43,6 +43,7 @@
 - Indie Hackers: https://www.indiehackers.com/isaaccorrea
 - Mastodon: https://mastodon.social/@isaaccorrea
 - Tumblr: https://isaaccorrea.tumblr.com
+- Bluesky: https://bsky.app/profile/isaac-correa.github.io (handle verified against this domain)
 - Wellfound: https://wellfound.com/u/isaac-correa-1
 - Code: https://github.com/isaac-correa
 - Crunchbase: https://www.crunchbase.com/person/isaac-correa-villa
