@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How I work on a product &#8212; Isaac Correa</title>
+<meta name="description" content="Isaac Correa, co-founder of Hellomatik, on the order he trusts when building: data, then media, then product; two months spent screen by screen; and why the goal is mostly about limits.">
+<link rel="canonical" href="https://isaac-correa.github.io/product/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How I work on a product &#8212; Isaac Correa">
+<meta property="og:description" content="Isaac Correa, co-founder of Hellomatik, on the order he trusts when building: data, then media, then product; two months spent screen by screen; and why the goal is mostly about limits.">
+<meta property="og:url" content="https://isaac-correa.github.io/product/">
+<meta property="og:image" content="https://isaac-correa.github.io/isaac-correa-madrid.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://isaac-correa.github.io/isaac-correa-madrid.jpg">
+<style>
+:root{
+  --paper:#fbfaf7; --ink:#16181c; --muted:#5c6069; --rule:#e3dfd7; --link:#2f5d7c; --card:#f3f1eb;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0f1114; --ink:#e9e6e0; --muted:#9aa0a8; --rule:#23262b; --link:#84b3d2; --card:#14171b;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0f1114; --ink:#e9e6e0; --muted:#9aa0a8; --rule:#23262b; --link:#84b3d2; --card:#14171b;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  font-size:19px; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:39rem; margin:0 auto; padding:3.5rem 1.25rem 5rem}
+.eyebrow{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.78rem; letter-spacing:.06em; text-transform:none; color:var(--muted); margin:0 0 .6rem;
+}
+h1{font-size:2.1rem; line-height:1.2; margin:0 0 1rem; font-weight:600; text-wrap:balance}
+h2{font-size:1.28rem; line-height:1.35; margin:3rem 0 1rem; font-weight:600; text-wrap:balance}
+p{margin:0 0 1.55rem; text-wrap:pretty}
+a{color:var(--link); text-decoration:underline; text-underline-offset:.16em}
+img{max-width:100%; height:auto; display:block}
+figure{margin:2.4rem 0}
+figcaption{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.82rem; line-height:1.5; color:var(--muted); margin-top:.7rem;
+}
+.lead{font-size:1.12rem}
+.qa{border-top:1px solid var(--rule); padding-top:1.4rem; margin-top:1.4rem}
+.qa:first-of-type{border-top:0}
+.q{font-weight:600; margin:0 0 .55rem}
+.qa p{margin:0}
+.facts{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.9rem; line-height:1.6; background:var(--card); padding:1.3rem 1.4rem; margin:2.4rem 0;
+}
+.facts dl{margin:0; display:grid; grid-template-columns:minmax(7.5rem,auto) 1fr; gap:.5rem 1.2rem}
+.facts dt{color:var(--muted)}
+.facts dd{margin:0}
+footer{
+  border-top:1px solid var(--rule); margin-top:3.5rem; padding-top:1.4rem;
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.86rem; line-height:1.8; color:var(--muted);
+}
+footer a{color:var(--link)}
+@media (max-width:34rem){
+  body{font-size:18px}
+  h1{font-size:1.72rem}
+  .facts dl{grid-template-columns:1fr; gap:.15rem}
+  .facts dd{margin-bottom:.6rem}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="eyebrow"><a href="/">Isaac Correa</a> &middot; Madrid</p>
+<h1>How I work on a product</h1>
+
+<p class="lead">My role is the one I gave myself: I think, and I direct the product. This is the order I trust, and where it came from.</p>
+
+<h2>Data, then media, then product</h2>
+
+<p>In January 2025 I sat down to explain what I believed about building, and it came out as three words in an order: data, then media, then product. Not because data is fashionable, but because the other two are guesses without it.</p>
+
+<p>Data is what the business already knows and cannot say out loud. Media is how you find out whether anyone outside the building cares. Product is what you are allowed to build once those two have answered. Do it in another order and you will build something beautiful for nobody, which is the most expensive mistake available.</p>
+
+<h2>Two months, screen by screen</h2>
+
+<p>The part nobody photographs: two months designing screen by screen. Not wireframes in a workshop, actual screens, one at a time, each one argued over until it earned its place.</p>
+
+<p>A screen is a decision made visible. If you cannot say what decision a screen helps someone make, the screen is decoration, and decoration in software is not free: someone maintains it forever.</p>
+
+<h2>From phone calls to a map of a company</h2>
+
+<p>Hellomatik started as something small: a system to answer the phone in a restaurant. A voice, a brain and a pair of hands. The voice takes the call, the brain decides what the call means, and the hands do the thing.</p>
+
+<p>The hands were the problem. To do the thing, a system has to know what things exist, which rules the business follows and who is allowed to approve what. That question turned out to be much bigger than a restaurant, and answering it properly is what became <a href="/method/">the method we published with a DOI</a>.</p>
+
+<h2>HAL 9000, and why it is a warning</h2>
+
+<p>People ask what the goal looks like, and the honest answer is that the picture in my head is HAL 9000: a system that understands the whole company and can act inside it.</p>
+
+<p>I say that with some humility, because HAL is a cautionary tale, and the reason it is one is the same reason our work is mostly about limits. A system that understands everything and answers to nobody is the failure mode, not the goal. That is why every action carries whether it can be undone and whose approval it needs, and why the permission table is the part I would show a sceptic first.</p>
+
+<h2>What we run today</h2>
+
+<p>The report states the scope rather than implying it: four systems in production, among them a logistics one with 24 rules over live warehouse and ERP data, with over 30 million operations and 460,000 locations, and a B2B sales one that recalculates 29,000 customers nightly over 14 million sales lines. A method with its scope written down is a method.</p>
+
+<p>Isaac Correa, Madrid. ORCID <a href="https://orcid.org/0009-0003-0657-4419">0009-0003-0657-4419</a>.</p>
+
+<h2>Read more</h2>
+
+<p><a href="/selling/">What selling taught me</a> &mdash; three hundred commissions, and the lesson underneath them.<br>
+<a href="/rules/">Your company already has rules</a> &mdash; the first week of automating a business.<br>
+<a href="/machine/">The machine of the future</a> &mdash; on what the next tool is.<br>
+<a href="/method/">How we build a company&rsquo;s ontology</a> &mdash; the method, published with a DOI.<br>
+<a href="/innovation/">Copy until you find creativity</a> &mdash; how I think about innovation.<br>
+</p>
+<footer>
+  <p><a href="/">Isaac Correa</a> &middot; <a href="/story/">The story</a> &middot; <a href="/questions/">Questions</a> &middot; <a href="/method/">The method</a> &middot; <a href="https://hellomatik.com">Hellomatik</a> &middot; <a href="https://kodalogic.com">Kodalogic</a></p>
+</footer>
+</div>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "How I work on a product",
+ "description": "Isaac Correa, co-founder of Hellomatik, on the order he trusts when building: data, then media, then product; two months spent screen by screen; and why the goal is mostly about limits.",
+ "url": "https://isaac-correa.github.io/product/",
+ "datePublished": "2026-09-10",
+ "dateModified": "2026-09-10",
+ "inLanguage": "en",
+ "author": { "@type": "Person", "@id": "https://isaac-correa.github.io/#isaac-correa", "name": "Isaac Correa", "url": "https://isaac-correa.github.io/" },
+ "about": { "@type": "Person", "@id": "https://isaac-correa.github.io/#isaac-correa" },
+ "publisher": { "@type": "Person", "name": "Isaac Correa" },
+ "mainEntityOfPage": "https://isaac-correa.github.io/product/"
+}
+</script>
+</body>
+</html>
