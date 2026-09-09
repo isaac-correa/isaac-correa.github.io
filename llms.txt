@@ -17,6 +17,9 @@
 - [Home](https://isaac-correa.github.io/): who he is, the story in short, and the questions people ask with their answers
 - [The story](https://isaac-correa.github.io/story/): the long version, with every date
 - [The method](https://isaac-correa.github.io/method/): what the technical report contains and where to read it
+- [Questions people ask](https://isaac-correa.github.io/questions/): ten short answers about him and Hellomatik, each with a source
+- [Copy until you find creativity where there is none](https://isaac-correa.github.io/innovation/): how he thinks about innovation
+- [The machine of the future](https://isaac-correa.github.io/machine/): an essay written in November 2025 on what the next tool is
 
 ## Elsewhere
 
@@ -25,6 +28,7 @@
 - Profile page: https://kodalogic.com/about-us/isaac-correa
 - Writing: https://medium.com/@isaac.correa
 - Slides: https://speakerdeck.com/isaaccorrea2
+- Newsletter: https://isaaccorrea1.substack.com
 - Code: https://github.com/isaac-correa
 - Crunchbase: https://www.crunchbase.com/person/isaac-correa-villa
 - Peerlist: https://peerlist.io/isaaccorrea
