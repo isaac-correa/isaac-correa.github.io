@@ -140,4 +140,25 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://isaac-correa.github.io/photos/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://isaac-correa.github.io/isaac-correa.jpg</image:loc>
+      <image:title>Isaac Correa</image:title>
+      <image:caption>Isaac Correa, co-founder of Hellomatik, photographed in Madrid</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://isaac-correa.github.io/isaac-correa-avatar.jpg</image:loc>
+      <image:title>Isaac Correa</image:title>
+      <image:caption>Isaac Correa, square portrait</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://isaac-correa.github.io/isaac-correa-madrid.jpg</image:loc>
+      <image:title>Isaac Correa</image:title>
+      <image:caption>Isaac Correa in Madrid</image:caption>
+    </image:image>
+  </url>
 </urlset>
