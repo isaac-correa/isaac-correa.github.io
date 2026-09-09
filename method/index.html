@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How we build a company&#8217;s ontology — Isaac Correa</title>
+<meta name="description" content="The method Hellomatik uses, published by Isaac Correa as a 26-page technical report with the DOI 10.5281/zenodo.22647735.">
+<link rel="canonical" href="https://isaac-correa.github.io/method/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How we build a company&#8217;s ontology — Isaac Correa">
+<meta property="og:description" content="The method Hellomatik uses, published by Isaac Correa as a 26-page technical report with the DOI 10.5281/zenodo.22647735.">
+<meta property="og:url" content="https://isaac-correa.github.io/method/">
+<meta property="og:image" content="https://isaac-correa.github.io/isaac-correa.jpg">
+<style>
+:root{
+  --paper:#fbfaf7; --ink:#16181c; --muted:#5c6069; --rule:#e3dfd7; --link:#2f5d7c; --card:#f3f1eb;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0f1114; --ink:#e9e6e0; --muted:#9aa0a8; --rule:#23262b; --link:#84b3d2; --card:#14171b;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0f1114; --ink:#e9e6e0; --muted:#9aa0a8; --rule:#23262b; --link:#84b3d2; --card:#14171b;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  font-size:19px; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:39rem; margin:0 auto; padding:3.5rem 1.25rem 5rem}
+.eyebrow{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.78rem; letter-spacing:.06em; text-transform:none; color:var(--muted); margin:0 0 .6rem;
+}
+h1{font-size:2.1rem; line-height:1.2; margin:0 0 1rem; font-weight:600; text-wrap:balance}
+h2{font-size:1.28rem; line-height:1.35; margin:3rem 0 1rem; font-weight:600; text-wrap:balance}
+p{margin:0 0 1.55rem; text-wrap:pretty}
+a{color:var(--link); text-decoration:underline; text-underline-offset:.16em}
+img{max-width:100%; height:auto; display:block}
+figure{margin:2.4rem 0}
+figcaption{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.82rem; line-height:1.5; color:var(--muted); margin-top:.7rem;
+}
+.lead{font-size:1.12rem}
+.qa{border-top:1px solid var(--rule); padding-top:1.4rem; margin-top:1.4rem}
+.qa:first-of-type{border-top:0}
+.q{font-weight:600; margin:0 0 .55rem}
+.qa p{margin:0}
+.facts{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.9rem; line-height:1.6; background:var(--card); padding:1.3rem 1.4rem; margin:2.4rem 0;
+}
+.facts dl{margin:0; display:grid; grid-template-columns:minmax(7.5rem,auto) 1fr; gap:.5rem 1.2rem}
+.facts dt{color:var(--muted)}
+.facts dd{margin:0}
+footer{
+  border-top:1px solid var(--rule); margin-top:3.5rem; padding-top:1.4rem;
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.86rem; line-height:1.8; color:var(--muted);
+}
+footer a{color:var(--link)}
+@media (max-width:34rem){
+  body{font-size:18px}
+  h1{font-size:1.72rem}
+  .facts dl{grid-template-columns:1fr; gap:.15rem}
+  .facts dd{margin-bottom:.6rem}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="eyebrow"><a href="/">Isaac Correa</a> · Madrid</p>
+<h1>How we build a company&#8217;s ontology</h1>
+
+<p class="lead">In September 2026 we published the method Hellomatik uses as a technical report with a DOI, deposited in two independent repositories and indexed under my ORCID. This page says what is in it and where to read it.</p>
+
+<h2>Why a DOI and not a whitepaper</h2>
+<p>A technical report can be cited, checked and taken apart. A DOI puts a fixed, dated version of the text in a repository that is not ours, so anyone can quote it and it does not depend on us keeping a link alive.</p>
+<p>The people we want reading it are operations directors, systems people, the person in a company who is quietly responsible for the ERP. They read papers.</p>
+
+<h2>What is in it</h2>
+<p>The report goes layer by layer. It starts with the data of the company and which system each piece comes from. Then the rules the company already decides by, written so that an agent can apply them rather than guess. Then the actions: what can be done, with what parameters, leaving what record. And last, permissions: who, or which agent, can go how far, and which actions wait for a signature.</p>
+<p>It also describes what we have running today: four systems in production, including a logistics one with 24 rules over a live warehouse and a B2B sales one that recalculates 29,000 customers. A method with its scope written down is a method.</p>
+
+<div class="facts">
+  <dl>
+    <dt>Title</dt><dd>How we build a company&#8217;s ontology (2026)</dd>
+    <dt>Author</dt><dd>Isaac Correa</dd>
+    <dt>Length</dt><dd>26 pages</dd>
+    <dt>DOI</dt><dd><a href="https://doi.org/10.5281/zenodo.22647735">10.5281/zenodo.22647735</a></dd>
+    <dt>Also on</dt><dd><a href="https://doi.org/10.6084/m9.figshare.33465184">Figshare</a></dd>
+    <dt>Slides</dt><dd><a href="https://speakerdeck.com/isaaccorrea2/how-we-build-a-companys-ontology">Speaker Deck</a></dd>
+    <dt>ORCID</dt><dd><a href="https://orcid.org/0009-0003-0657-4419">0009-0003-0657-4419</a></dd>
+  </dl>
+</div>
+
+<p>The story of how the method came about is <a href="/story/">here</a>.</p>
+<footer>
+  <p><a href="/">Isaac Correa</a> · <a href="https://hellomatik.com">Hellomatik</a> · <a href="https://kodalogic.com">Kodalogic</a> · <a href="https://medium.com/@isaac.correa">Medium</a> · <a href="https://speakerdeck.com/isaaccorrea2">Speaker Deck</a> · <a href="https://orcid.org/0009-0003-0657-4419">ORCID</a></p>
+</footer>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "How we build a company\u2019s ontology",
+  "name": "How we build a company\u2019s ontology",
+  "url": "https://isaac-correa.github.io/method/",
+  "identifier": "https://doi.org/10.5281/zenodo.22647735",
+  "sameAs": ["https://doi.org/10.5281/zenodo.22647735", "https://doi.org/10.6084/m9.figshare.33465184"],
+  "datePublished": "2026-09",
+  "inLanguage": "en",
+  "numberOfPages": 26,
+  "author": { "@type": "Person", "@id": "https://hellomatik.com/#isaac-correa", "name": "Isaac Correa", "url": "https://isaac-correa.github.io/" }
+}
+</script>
+</body>
+</html>
