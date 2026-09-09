@@ -38,6 +38,7 @@
 - Crunchbase: https://www.crunchbase.com/person/isaac-correa-villa
 - Peerlist: https://peerlist.io/isaaccorrea
 - Product Hunt: https://www.producthunt.com/@isaac_correa
-- F6S: https://www.f6s.com/member/isaac-correa
+- F6S: https://www.f6s.com/isaac-correa
+- HackerNoon: https://hackernoon.com/u/IsaacCorrea_k24cceus
 - ORCID: https://orcid.org/0009-0003-0657-4419
 - Company register entry: https://librebor.me/borme/persona/correa-villa-isaac/
