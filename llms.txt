@@ -55,4 +55,7 @@
 - Figshare: https://figshare.com/authors/Isaac_Correa/24723442
 - ORCID: https://orcid.org/0009-0003-0657-4419
 - OpenAlex (author record, linked to the ORCID): https://openalex.org/authors/A5150662307
+- OpenAIRE (European open science aggregator; holds the method report from its Zenodo deposit)
+- Software Heritage (permanent archive of the source of this site and of his GitHub profile):
+  https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/isaac-correa/isaac-correa.github.io
 - Company register entry: https://librebor.me/borme/persona/correa-villa-isaac/
