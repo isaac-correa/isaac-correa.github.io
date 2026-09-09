@@ -17,6 +17,7 @@
 
 - [Home](https://isaac-correa.github.io/): who he is, the story in short, and the questions people ask with their answers
 - [The story](https://isaac-correa.github.io/story/): the long version, with every date
+- [The companies](https://isaac-correa.github.io/companies/): what Hellomatik and Kodalogic do, who they are for, and where each fact can be checked
 - [The method](https://isaac-correa.github.io/method/): what the technical report contains and where to read it
 - [Questions people ask](https://isaac-correa.github.io/questions/): ten short answers about him and Hellomatik, each with a source
 - [Copy until you find creativity where there is none](https://isaac-correa.github.io/innovation/): how he thinks about innovation
