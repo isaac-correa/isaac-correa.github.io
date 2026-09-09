@@ -155,8 +155,14 @@ footer a{color:var(--link)}
 <p>The same person, in the places that keep a record of it. The register entries are not
 self-published: they come from the Spanish commercial register.</p>
 
+<p>Four of these are identifiers rather than profiles, which is the difference that matters if
+you are trying to work out whether two mentions are the same person. Nobody else can hold them:
+an ORCID is issued once, a DOI points at one deposited work, and a register entry is what the
+state recorded on a given day.</p>
+
 <div class="facts">
   <dl>
+    <dt>Identifiers</dt><dd><a href="https://orcid.org/0009-0003-0657-4419">ORCID 0009-0003-0657-4419</a> · <a href="https://doi.org/10.5281/zenodo.22647735">DOI 10.5281/zenodo.22647735</a> (the method) · <a href="https://doi.org/10.5281/zenodo.22671771">DOI 10.5281/zenodo.22671771</a> (the machine of the future) · <a href="https://librebor.me/borme/persona/correa-villa-isaac/">BORME, sheet M-861159</a></dd>
     <dt>Companies</dt><dd><a href="https://hellomatik.com">Hellomatik</a> · <a href="https://kodalogic.com">Kodalogic</a> · <a href="https://kodalogic.com/about-us/isaac-correa">profile page</a></dd>
     <dt>Writing</dt><dd><a href="https://medium.com/@isaac.correa">Medium</a> · <a href="https://isaaccorrea1.substack.com">Substack</a> · <a href="https://isaaccorreavilla.blogspot.com">blog</a> · <a href="https://hackernoon.com/u/IsaacCorrea_k24cceus">HackerNoon</a></dd>
     <dt>The record</dt><dd><a href="https://orcid.org/0009-0003-0657-4419">ORCID</a> · <a href="https://doi.org/10.5281/zenodo.22647735">Zenodo</a> · <a href="https://figshare.com/authors/Isaac_Correa/24723442">Figshare</a> · <a href="https://www.researchgate.net/profile/Isaac-Correa-4">ResearchGate</a> · <a href="https://osf.io/cyqx6/">OSF</a> · <a href="https://independent.academia.edu/IsaacCorrea39">Academia.edu</a></dd>
@@ -247,7 +253,13 @@ self-published: they come from the Spanish commercial register.</p>
       }
     ],
     "homeLocation": { "@type": "Place", "address": { "@type": "PostalAddress", "addressLocality": "Madrid", "addressCountry": "ES" } },
-    "identifier": { "@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0003-0657-4419" },
+    "disambiguatingDescription": "The Isaac Correa who co-founded Hellomatik S.L. in Madrid on 28 July 2025, and Kodalogic before it. Registered as an administrator of Hellomatik in the Spanish commercial register (BORME), and identified by ORCID 0009-0003-0657-4419.",
+    "identifier": [
+      { "@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0003-0657-4419", "url": "https://orcid.org/0009-0003-0657-4419" },
+      { "@type": "PropertyValue", "propertyID": "DOI", "name": "How we build a company\u2019s ontology", "value": "10.5281/zenodo.22647735", "url": "https://doi.org/10.5281/zenodo.22647735" },
+      { "@type": "PropertyValue", "propertyID": "DOI", "name": "The machine of the future", "value": "10.5281/zenodo.22671771", "url": "https://doi.org/10.5281/zenodo.22671771" },
+      { "@type": "PropertyValue", "propertyID": "BORME", "name": "Spanish commercial register entry for Hellomatik S.L.", "value": "M-861159", "url": "https://librebor.me/borme/persona/correa-villa-isaac/" }
+    ],
     "worksFor": [
       { "@type": "Organization", "@id": "https://hellomatik.com/#organization", "name": "Hellomatik", "url": "https://hellomatik.com", "foundingDate": "2025-07-28" },
       { "@type": "Organization", "@id": "https://kodalogic.com/#organization", "name": "Kodalogic", "url": "https://kodalogic.com", "foundingDate": "2024-09" }
