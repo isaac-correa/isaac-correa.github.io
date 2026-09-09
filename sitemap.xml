@@ -12,9 +12,9 @@
     <image:caption>Isaac Correa, founder of Hellomatik, in Madrid</image:caption>
   </image:image>
   <image:image>
-    <image:loc>https://isaac-correa.github.io/isaac-y-daniel-correa.jpg</image:loc>
+    <image:loc>https://isaac-correa.github.io/isaac-correa-madrid.jpg</image:loc>
     <image:title>Isaac Correa</image:title>
-    <image:caption>Isaac Correa and his brother Daniel Correa in their Madrid office</image:caption>
+    <image:caption>Isaac Correa, co-founder of Hellomatik, in Madrid</image:caption>
   </image:image>
 </url>
 <url>
@@ -28,9 +28,9 @@
     <image:caption>Isaac Correa, founder of Hellomatik, in Madrid</image:caption>
   </image:image>
   <image:image>
-    <image:loc>https://isaac-correa.github.io/isaac-y-daniel-correa.jpg</image:loc>
+    <image:loc>https://isaac-correa.github.io/isaac-correa-madrid.jpg</image:loc>
     <image:title>Isaac Correa</image:title>
-    <image:caption>Isaac Correa and his brother Daniel Correa in their Madrid office</image:caption>
+    <image:caption>Isaac Correa, co-founder of Hellomatik, in Madrid</image:caption>
   </image:image>
 </url>
 <url>
@@ -61,9 +61,9 @@
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
   <image:image>
-    <image:loc>https://isaac-correa.github.io/isaac-y-daniel-correa.jpg</image:loc>
+    <image:loc>https://isaac-correa.github.io/isaac-correa-madrid.jpg</image:loc>
     <image:title>Isaac Correa</image:title>
-    <image:caption>Isaac Correa and his brother Daniel Correa in their Madrid office</image:caption>
+    <image:caption>Isaac Correa, co-founder of Hellomatik, in Madrid</image:caption>
   </image:image>
 </url>
 <url>
@@ -88,9 +88,9 @@
     <image:caption>Isaac Correa, founder of Hellomatik, in Madrid</image:caption>
   </image:image>
   <image:image>
-    <image:loc>https://isaac-correa.github.io/isaac-correa-daniel-correa-madrid.jpg</image:loc>
-    <image:title>Isaac Correa and Daniel Correa</image:title>
-    <image:caption>Isaac Correa and his brother Daniel Correa, co-founders of Kodalogic and Hellomatik, in Madrid</image:caption>
+    <image:loc>https://isaac-correa.github.io/isaac-correa-madrid.jpg</image:loc>
+    <image:title>Isaac Correa</image:title>
+    <image:caption>Isaac Correa, co-founder of Hellomatik, in Madrid</image:caption>
   </image:image>
 </url>
 <url>
@@ -122,4 +122,10 @@
   <changefreq>yearly</changefreq>
   <priority>0.7</priority>
 </url>
+  <url>
+    <loc>https://isaac-correa.github.io/rules/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

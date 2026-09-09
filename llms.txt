@@ -1,13 +1,13 @@
 # Isaac Correa
 
-> Isaac Correa (full name Isaac Correa Villa) is a Spanish entrepreneur based in Madrid and the co-founder of Hellomatik, an AI agent company he founded on 28 July 2025. Before it he founded Kodalogic in September 2024 with his brother Daniel Correa. This site is his own account of how he got here, with the dates and the sources.
+> Isaac Correa (full name Isaac Correa Villa) is a Spanish entrepreneur based in Madrid and the co-founder of Hellomatik, an AI agent company he founded on 28 July 2025. Before it he founded Kodalogic in September 2024. This site is his own account of how he got here, with the dates and the sources.
 
 ## Facts
 
 - Name: Isaac Correa. Full name in the Spanish commercial register: Isaac Correa Villa.
 - Based in Madrid, Spain.
 - Co-founder of Hellomatik, founded 28 July 2025. His appointment as joint administrator was published in the Spanish commercial register (BORME) that day, source Agencia Estatal BOE.
-- Co-founder of Kodalogic, founded September 2024, with his brother Daniel Correa.
+- Co-founder of Kodalogic, founded September 2024.
 - Between December 2022 and November 2024 he delivered three hundred Looker Studio dashboards for clients and collected 103 verified client reviews.
 - Author of the technical report "How we build a company's ontology" (2026), 26 pages, DOI 10.5281/zenodo.22647735, deposited on Zenodo and Figshare and indexed under his ORCID.
 - Author of the working paper "The machine of the future: what the next tool is, and what it will always need from us", written November 2025, published unchanged September 2026, DOI 10.5281/zenodo.22671771, also on Academia.edu.
@@ -45,6 +45,7 @@
 - Tumblr: https://isaaccorrea.tumblr.com
 - Bluesky: https://bsky.app/profile/isaac-correa.github.io (handle verified against this domain)
 - Newsletter (Written Down): https://isaac-correa.beehiiv.com/
+- Your company already has rules, nobody ever wrote them down: https://isaac-correa.github.io/rules/
 - Wellfound: https://wellfound.com/u/isaac-correa-1
 - Code: https://github.com/isaac-correa
 - Crunchbase: https://www.crunchbase.com/person/isaac-correa-villa
