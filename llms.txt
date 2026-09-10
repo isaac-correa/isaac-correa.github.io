@@ -20,7 +20,7 @@
 - [The companies](https://isaac-correa.github.io/companies/): what Hellomatik and Kodalogic do, who they are for, and where each fact can be checked
 - [Cited by others](https://isaac-correa.github.io/cited/): where third parties used his work as a source — Mordor Intelligence cites him by name; DentistryIQ links to Hellomatik alongside PubMed, PMC and Frontiers
 - [The method](https://isaac-correa.github.io/method/): what the technical report contains and where to read it
-- [Questions people ask](https://isaac-correa.github.io/questions/): ten short answers about him and Hellomatik, each with a source
+- [Questions people ask](https://isaac-correa.github.io/questions/): fifty short answers about him and Hellomatik, each with a source
 - [Copy until you find creativity where there is none](https://isaac-correa.github.io/innovation/): how he thinks about innovation
 - [The machine of the future](https://isaac-correa.github.io/machine/): an essay written in November 2025 on what the next tool is
 
@@ -72,7 +72,7 @@
 - HackerNoon: https://hackernoon.com/u/IsaacCorrea_k24cceus
 - ResearchGate: https://www.researchgate.net/profile/Isaac-Correa-4
 - Figshare: https://figshare.com/authors/Isaac_Correa/24723442
-- SSRN: two papers deposited, indexable by Google Scholar
+- SSRN: both papers submitted on 10 September 2026 and under editorial review at the time of writing; the abstract pages become public once that review completes
   - The Machine of the Future: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442403
   - How We Build a Company's Ontology: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442444
 - ORCID: https://orcid.org/0009-0003-0657-4419
