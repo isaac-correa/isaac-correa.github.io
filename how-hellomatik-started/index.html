@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Isaac Correa: how Hellomatik started</title>
-<meta name="description" content="How Hellomatik went from answering restaurant phone calls to writing down how a company decides, and why giving software hands changes what has to be written.">
+<meta name="description" content="From answering restaurant phone calls to writing a company's ontology: data, rules, actions, permissions, and why software that acts is what forces it.">
 <link rel="canonical" href="https://isaac-correa.github.io/how-hellomatik-started/">
 <link rel="alternate" type="application/atom+xml" title="Isaac Correa" href="/feed.xml">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Isaac Correa: how Hellomatik started">
-<meta property="og:description" content="How Hellomatik went from answering restaurant phone calls to writing down how a company decides, and why giving software hands changes what has to be written.">
+<meta property="og:description" content="From answering restaurant phone calls to writing a company's ontology: data, rules, actions, permissions, and why software that acts is what forces it.">
 <meta property="og:url" content="https://isaac-correa.github.io/how-hellomatik-started/">
 <meta property="og:image" content="https://isaac-correa.github.io/og/card-how-hellomatik-started.jpg">
 <meta property="og:image:width" content="1200">
@@ -103,7 +103,7 @@ footer a{color:var(--link)}
  "@context": "https://schema.org",
  "@type": "Article",
  "headline": "Isaac Correa: how Hellomatik started",
- "description": "How Hellomatik went from answering restaurant phone calls to writing down how a company decides, and why giving software hands changes what has to be written.",
+ "description": "From answering restaurant phone calls to writing a company's ontology: data, rules, actions, permissions, and why software that acts is what forces it.",
  "url": "https://isaac-correa.github.io/how-hellomatik-started/",
  "datePublished": "2026-09-10",
  "dateModified": "2026-09-10",
@@ -163,17 +163,21 @@ footer a{color:var(--link)}
 
 <h2>The cheap fixes, and where they stop</h2>
 
-<p>There are two well-known answers to that and both work. Let the system look things up instead of recalling them, so the answer comes from the record rather than the model. And let it say it does not know instead of filling the gap. I used both, and they do fix the repeating.</p>
+<p>There are two well-known answers to that. Let the system look things up instead of recalling them, so the answer comes from the record rather than the model. And let it say it does not know instead of filling the gap. I used both. They reduce how often it invents, and they are worth doing, but neither one decides anything.</p>
 
-<p>What they do not fix is which record. A business with a booking system, a point of sale and a spreadsheet has three answers to &ldquo;is that table free&rdquo;, and they disagree. Looking it up is only a procedure once somebody has decided, in writing, which of the three is believed about that particular field, and in the businesses I sat with that decision was not the same for every field.</p>
+<p>The first thing they do not decide is which record. A business with a booking system, a point of sale and a spreadsheet has three answers to &ldquo;is that table free&rdquo;, and they disagree. Looking it up is only a procedure once somebody has decided, in writing, which of the three is believed about that particular field, and in the businesses I sat with that decision was not the same for every field.</p>
 
-<p>None of this is new. Deciding which system is authoritative for which data is an old discipline with its own literature, its own vendors and its own well-documented ways of failing: master data management, data governance, more recently data contracts. What was different in 2025 was who the reader is. Those programmes were built so that people and reports would agree with each other. If the thing reading the record is going to act on it without asking, the same decision has to exist in a form a program can read &mdash; and in the small and mid-size companies I worked with, it had not been written down in any form. It was held by whoever had been there longest.</p>
+<p>The second is that a good part of what the phone gets asked is not in any record at all. Can this table be held for twenty minutes without a card. Can that customer order again with an invoice still unpaid. Can the party of twelve book on a Friday. Those have exact answers, the business applies them consistently, and they are not written anywhere &mdash; they are conditions somebody decided once and everyone learned. Looking them up is not possible, because there is nothing to look up.</p>
+
+<p>None of this is new. Deciding which system is authoritative for which data is an old discipline with its own literature, its own vendors and its own well-documented ways of failing: master data management, data governance, more recently data contracts. Those programmes have driven system-to-system integration for years, not only human reporting, so the machine-readable part is not the new bit either. What was different in my case was the size of company. That work is normally bought by organisations large enough to run a programme around it, and in the small and mid-size businesses I sat with the same decisions existed nowhere at all &mdash; not in a tool, not in a document. They were held by whoever had been there longest.</p>
 
 <h2>A brain</h2>
 
 <p>So before the software there is a document: which system is authoritative for each thing, what conditions the business already applies, which <a href="/glossary/">exceptions</a> are live and when they expire, and who may approve what. Not a summary of the business, but the specific decisions it makes without noticing it is making them.</p>
 
-<p>One piece of it &mdash; two departments settling what they each mean by &ldquo;customer&rdquo; &mdash; takes an afternoon in a room, and in my experience it does not end with a clean answer. Both definitions are usually right about their own department. Doing that across a company, thing by thing, is the first few weeks rather than an afternoon, and it is worth being clear about which of the two anyone is being asked for.</p>
+<p>One piece of it &mdash; two departments settling what they each mean by &ldquo;customer&rdquo; &mdash; takes an afternoon in a room, and in my experience it does not end with a clean answer. Both definitions are usually right about their own department.</p>
+
+<p>A company has hundreds of terms like that, so the honest version is that the document is never finished. What the first weeks produce is not the whole company written down: it is the part needed by whatever is being automated first, which is a much smaller thing and is the only reason the work is startable at all. The rest stays where it was, and gets written when something needs to act on it. Anyone who tells you the whole map takes a few weeks is quoting the afternoon and hoping you multiply badly.</p>
 
 <p>That cost falls on the company rather than on me: it puts people in a meeting arguing about something they had been quietly disagreeing about for years, and the count of live exceptions comes out higher than expected. It also does not settle who is allowed to change the rule once it is written, which is the failure mode the older discipline is full of and which I do not consider solved.</p>
 
@@ -191,13 +195,19 @@ footer a{color:var(--link)}
 
 <p>Those are counts of what the systems run over, not of what they improved, and the report is my own deposit rather than an audit by anyone else. So they are a description of size and nothing more.</p>
 
-<h2>The first client</h2>
+<h2>What the document turned out to be</h2>
 
-<p>A large clinic. I am not naming it or its city, which means you have to take the case on trust, so I will keep the claim small: the work went in the same order as everything above. The <a href="/method/">map</a> first &mdash; which system was authoritative for what, and what the rules already were. The agents after, given something to achieve rather than a question to reply to.</p>
+<p>By this point the document had four parts. I did not arrive at them by design; each is what was left over from a problem further up this page, and I am laying them out in that order so the derivation can be checked rather than taken.</p>
+
+<p>The voice needed to know which system is believed about each thing, so the first part is the data: what exists in the business, and which record is authoritative for each field of it. The questions with no record behind them &mdash; the twenty-minute hold, the party of twelve, the customer with an invoice outstanding &mdash; needed the conditions the business already applies, written down with their exceptions and the dates those stop being true, so the second part is the rules. Letting it act needed the list of what it may actually do and which of those things can be undone, so the third part is the actions. And because some of those cannot be undone, the fourth part is who may approve what.</p>
+
+<p>Data, rules, actions, permissions. The word for that is ontology, used the way information systems have used it for decades rather than the way philosophy does &mdash; I <a href="/glossary/">define it, and what it is not, on another page</a>. It is an unfashionable term and I keep it because the alternatives mislead: &ldquo;knowledge base&rdquo; suggests pages for a human to read, and &ldquo;configuration&rdquo; suggests settings for a program that already exists. This is neither. It is a company stating its own decisions in a form that something other than a person can act on.</p>
+
+<p>The version I ended up with is written out in full in the report, called &ldquo;How we build a company&rsquo;s ontology&rdquo;. What it mostly contains is the order to ask things in and the mistakes that make you redo the first week.</p>
 
 <h2>The checkable part</h2>
 
-<p>Very little of what I have written above can be verified from outside. The report is deposited with a <a href="https://doi.org/10.5281/zenodo.22647735">DOI</a>, which is an address rather than a review: it fixes the argument in one place with a date on it so it can be disagreed with in detail.</p>
+<p>Very little of what I have written above can be verified from outside. Hellomatik&rsquo;s first client was a large clinic, and I am not naming it or its city, so that is not a case study and I am not going to present it as one &mdash; it is a fact about my working life that you would have to take on trust, which is the same footing as most of this page. The report is deposited with a <a href="https://doi.org/10.5281/zenodo.22647735">DOI</a>, which is an address rather than a review: it fixes the argument in one place with a date on it so it can be disagreed with in detail.</p>
 
 <p>The company is a matter of public record. Hellomatik was incorporated in Madrid on 28 July 2025. My appointment as joint administrator went into the Spanish commercial register and was published in the BORME on 4 August 2025, sheet M-861159, with the Agencia Estatal BOE as the source. That proves a company exists and when &mdash; nothing about whether any of the above works.</p>
 
@@ -205,11 +215,11 @@ footer a{color:var(--link)}
 
 <h2>Read more</h2>
 
-<p><a href="/story/">From a seven-dollar dashboard to Hellomatik</a> &mdash; the whole story with its dates.<br>
+<p><a href="/method/">How we build a company&rsquo;s ontology</a> &mdash; the method this ends at, published in full with a DOI.<br>
+<a href="/glossary/">The vocabulary, defined one word at a time</a> &mdash; what ontology, rule, action and permission mean here, and what they are not.<br>
+<a href="/story/">From a seven-dollar dashboard to Hellomatik</a> &mdash; the whole story with its dates.<br>
 <a href="/looker-studio/">The Looker Studio years</a> &mdash; the two years of dashboards this came out of.<br>
-<a href="/actions/">Which actions can be undone</a> &mdash; the list that has to exist before software may act.<br>
-<a href="/method/">The method, published with a DOI</a> &mdash; what the report contains and where to read it.<br>
-<a href="/companies/">Hellomatik and Kodalogic</a> &mdash; what each company does, and where each fact can be checked.</p>
+<a href="/actions/">Which actions can be undone</a> &mdash; the list that has to exist before software may act.</p>
 
 </div>
 </body>
