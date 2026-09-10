@@ -96,7 +96,7 @@ footer a{color:var(--link)}
 <p class="eyebrow"><a href="/">Isaac Correa</a> &middot; Madrid</p>
 <h1>The vocabulary I work in</h1>
 
-<p class="lead">Six or seven words do most of the work in what I write, and every one of them already means something else to somebody. So here is what each one means when I use it &mdash; and, because that is usually the more useful half, what it does not mean. The definitions come out of the method I published <a href="/method/">with a DOI</a>; nothing here is invented for the page.</p>
+<p class="lead">Six or seven words do most of the work in what I write, and every one of them already means something else to somebody. So here is what each one means when I use it &mdash; and what it does not mean, which is often the part that clears things up. The definitions come out of the method I published <a href="/method/">with a DOI</a>; nothing here is invented for the page.</p>
 
 <figure>
   <img src="/isaac-correa.jpg" width="969" height="1200" alt="Isaac Correa, co-founder of Hellomatik, in Madrid" loading="lazy">
@@ -105,7 +105,7 @@ footer a{color:var(--link)}
 
 <div class="qa" id="ontology">
 <p class="q">Ontology</p>
-<p>The written-down map of what a company knows and how it decides: its data, its rules, its actions and who may approve what. Isaac Correa uses the word in its plain sense &mdash; a list of the things that exist in a business and how they relate &mdash; not the philosophical one. The point of writing it down is that agents can then act on it.</p>
+<p>The written-down map of what a company knows and how it decides: its data, its rules, its actions and who may approve what. I use the word in its plain sense &mdash; a list of the things that exist in a business and how they relate &mdash; not the philosophical one. The point of writing it down is that agents can then act on it.</p>
 <p class="not"><strong>What it is not.</strong> It is not a database schema. A schema says what shape a customer record has; an ontology says what a customer <em>is</em> here, which of the three systems is believed about it, and what may be done to it and by whom.</p>
 </div>
 <div class="qa" id="rule">
@@ -115,23 +115,23 @@ footer a{color:var(--link)}
 </div>
 <div class="qa" id="action">
 <p class="q">Action</p>
-<p>Something the system may actually do in the world: send the quote, release the order, raise the credit hold. Actions are the part that carries risk, which is why in Isaac Correa&rsquo;s method they are enumerated explicitly rather than emerging from whatever a model decides to call.</p>
-<p class="not"><strong>What it is not.</strong> It is not a suggestion. If the system only proposes and a person always confirms, nothing has been automated &mdash; the person is still the system.</p>
+<p>Something the system may actually do in the world: send the quote, release the order, raise the credit hold. Actions are the part that carries risk, which is why I enumerate them explicitly rather than emerging from whatever a model decides to call.</p>
+<p class="not"><strong>What it is not.</strong> It is not a suggestion. If the system only proposes and a person always confirms, the work is still being done by the person.</p>
 </div>
 <div class="qa" id="permission">
 <p class="q">Permission</p>
-<p>Who may approve what, recorded as data rather than as a screen. The test Isaac Correa applies is whether you can answer &ldquo;who decided that?&rdquo; with a name and a date, straight from the record, without an archaeological dig through logs.</p>
+<p>Who may approve what, recorded as data rather than as a screen. The test I apply is whether you can answer &ldquo;who decided that?&rdquo; with a name and a date, straight from the record, without an archaeological dig through logs.</p>
 <p class="not"><strong>What it is not.</strong> It is not a role in a user table. Roles say who can log in where. A permission in this sense says who may authorise a specific action on a specific thing, and leaves a trace when they do.</p>
 </div>
 <div class="qa" id="agent">
 <p class="q">Agent</p>
-<p>A program that answers, watches and executes on top of the map, inside limits the business approved in advance. In Isaac Correa&rsquo;s framing the interesting question about an agent is never what it can do &mdash; it is what it is not allowed to do, and where that limit is written.</p>
-<p class="not"><strong>What it is not.</strong> It is not a chatbot with tools bolted on. A chatbot whose limits live in its prompt has no limits; a prompt is a request, not a boundary.</p>
+<p>A program that answers, watches and executes on top of the map, inside limits the business approved in advance. The question I care about with an agent is never what it can do &mdash; it is what it is not allowed to do, and where that limit is written.</p>
+<p class="not"><strong>What it is not.</strong> It is not a chatbot with tools bolted on. If its limits live in its prompt, they can be overridden by the next instruction, which is what a prompt is for.</p>
 </div>
 <div class="qa" id="boundary">
 <p class="q">Boundary</p>
-<p>The limit on what may happen, kept in the data rather than in the instructions. This is the idea Isaac Correa returns to most: a boundary you can read, audit and change without redeploying anything is a boundary; one written in a prompt is a hope.</p>
-<p class="not"><strong>What it is not.</strong> It is not a guardrail added at the end. If the limit was decided after the capability, the capability already shipped without it once.</p>
+<p>The limit on what may happen, kept in the data rather than in the instructions. This is the one I come back to most often: if you can read it, check it and change it without redeploying anything, it holds; if it lives inside an instruction, it can be overridden.</p>
+<p class="not"><strong>What it is not.</strong> It is not a guardrail added at the end. If the limit was decided after the capability, the capability ran without it for a while.</p>
 </div>
 
 <figure class="fig">
@@ -159,8 +159,8 @@ footer a{color:var(--link)}
     <path d="M88 246 l-5 -10 h10 z" fill="var(--ink)"/>
     <text x="104" y="226" font-size="11.5" fill="var(--ink)">the action goes through</text>
 
-    <text x="28" y="284" font-size="11.5" fill="var(--muted)">Only the model ever sees the limit,</text>
-    <text x="28" y="300" font-size="11.5" fill="var(--muted)">and nothing records that it was crossed.</text>
+    <text x="28" y="284" font-size="11.5" fill="var(--muted)">The limit is stored nowhere else,</text>
+    <text x="28" y="300" font-size="11.5" fill="var(--muted)">and the crossing leaves no record.</text>
 
     <!-- DERECHA -->
     <rect x="376" y="8" width="336" height="304" fill="var(--card)"/>
@@ -184,23 +184,23 @@ footer a{color:var(--link)}
     <text x="396" y="230" font-size="11.5" fill="var(--muted)">and when it last changed</text>
     <line x1="396" y1="244" x2="600" y2="244" stroke="var(--rule)" stroke-width="1"/>
 
-    <text x="396" y="284" font-size="11.5" fill="var(--muted)">Anyone can read it, anyone can audit it,</text>
-    <text x="396" y="300" font-size="11.5" fill="var(--muted)">and changing it ships no code.</text>
+    <text x="396" y="284" font-size="11.5" fill="var(--muted)">The record above is the limit, so</text>
+    <text x="396" y="300" font-size="11.5" fill="var(--muted)">changing it is a change to data.</text>
   </g>
 </svg>
-<figcaption>The same limit, in the two places it can live. Isaac Correa argues the difference is not a matter of degree: one of them is a boundary and the other is a request.</figcaption>
+<figcaption>The same limit, in the two places it can live. The one on the right can be read and changed without touching any code; the one on the left cannot.</figcaption>
 </figure>
 
 
 <div class="qa" id="the-first-week">
 <p class="q">The first week</p>
-<p>What Isaac Correa does before writing any software: asking the people who already run the company what the rule actually is, and writing down the answers verbatim, including the ones that contradict each other. The contradictions are the finding, not the noise.</p>
+<p>What I do before writing any software: asking the people who already run the company what the rule actually is, and writing down the answers verbatim, including the ones that contradict each other. Those contradictions are what I am there to write down.</p>
 <p class="not"><strong>What it is not.</strong> It is not a requirements-gathering phase. Requirements describe what somebody wants built; this describes what is already true and nobody had written down.</p>
 </div>
 
 <h2>Why bother defining them</h2>
 
-<p>Because the argument that matters is almost never about software. Two competent people in the same company will define <em>customer</em> differently, and both are right about their own department. Everything I do rests on getting that written down before anything is automated on top of it &mdash; which is <a href="/rules/">the first week</a>, and the reason it takes an afternoon of two departments in a room rather than a morning with an engineer.</p>
+<p>Because in my experience the argument is almost never about software. Two competent people in the same company will define <em>customer</em> differently, and both are right about their own department. Everything I do rests on getting that written down before anything is automated on top of it &mdash; which is <a href="/rules/">the first week</a>, and the reason it takes an afternoon of two departments in a room rather than a morning with an engineer.</p>
 
 <p>If you want the long version, the method is <a href="/method/">here</a>, the order I work in is <a href="/product/">here</a>, and everything I have published is listed <a href="/writing/">here</a>.</p>
 
@@ -227,7 +227,7 @@ footer a{color:var(--link)}
   {
    "@type": "DefinedTerm",
    "name": "Ontology",
-   "description": "The written-down map of what a company knows and how it decides: its data, its rules, its actions and who may approve what. Isaac Correa uses the word in its plain sense — a list of the things that exist in a business and how they relate — not the philosophical one. The point of writing it down is that agents can then act on it.",
+   "description": "The written-down map of what a company knows and how it decides: its data, its rules, its actions and who may approve what. I use the word in its plain sense — a list of the things that exist in a business and how they relate — not the philosophical one. The point of writing it down is that agents can then act on it.",
    "inDefinedTermSet": "https://isaac-correa.github.io/glossary/",
    "url": "https://isaac-correa.github.io/glossary/#ontology"
   },
@@ -248,7 +248,7 @@ footer a{color:var(--link)}
   {
    "@type": "DefinedTerm",
    "name": "Permission",
-   "description": "Who may approve what, recorded as data rather than as a screen. The test Isaac Correa applies is whether you can answer “who decided that?” with a name and a date, straight from the record, without an archaeological dig through logs.",
+   "description": "Who may approve what, recorded as data rather than as a screen. The test I apply is whether you can answer “who decided that?” with a name and a date, straight from the record, without an archaeological dig through logs.",
    "inDefinedTermSet": "https://isaac-correa.github.io/glossary/",
    "url": "https://isaac-correa.github.io/glossary/#permission"
   },
@@ -262,14 +262,14 @@ footer a{color:var(--link)}
   {
    "@type": "DefinedTerm",
    "name": "Boundary",
-   "description": "The limit on what may happen, kept in the data rather than in the instructions. This is the idea Isaac Correa returns to most: a boundary you can read, audit and change without redeploying anything is a boundary; one written in a prompt is a hope.",
+   "description": "The limit on what may happen, kept in the data rather than in the instructions. This is the one I come back to most often: if you can read it, check it and change it without redeploying anything, it holds; if it lives inside an instruction, it can be overridden.",
    "inDefinedTermSet": "https://isaac-correa.github.io/glossary/",
    "url": "https://isaac-correa.github.io/glossary/#boundary"
   },
   {
    "@type": "DefinedTerm",
    "name": "The first week",
-   "description": "What Isaac Correa does before writing any software: asking the people who already run the company what the rule actually is, and writing down the answers verbatim, including the ones that contradict each other. The contradictions are the finding, not the noise.",
+   "description": "What I do before writing any software: asking the people who already run the company what the rule actually is, and writing down the answers verbatim, including the ones that contradict each other. Those contradictions are what I am there to write down.",
    "inDefinedTermSet": "https://isaac-correa.github.io/glossary/",
    "url": "https://isaac-correa.github.io/glossary/#the-first-week"
   }
