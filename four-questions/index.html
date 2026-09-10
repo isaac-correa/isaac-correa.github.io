@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Four questions to ask before automating anything</title>
+<meta name="description" content="Four questions Isaac Correa asks a company before any software is written, as a page you can work through with your own team. No sign-up, nothing sent anywhere, and the answers stay in your browser.">
+<link rel="canonical" href="https://isaac-correa.github.io/four-questions/">
+<link rel="alternate" type="application/atom+xml" title="Isaac Correa" href="/feed.xml">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Four questions to ask before automating anything">
+<meta property="og:description" content="Four questions Isaac Correa asks a company before any software is written, as a page you can work through with your own team. No sign-up, nothing sent anywhere, and the answers stay in your browser.">
+<meta property="og:url" content="https://isaac-correa.github.io/four-questions/">
+<meta property="og:image" content="https://isaac-correa.github.io/isaac-correa-madrid.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://isaac-correa.github.io/isaac-correa-madrid.jpg">
+<style>
+
+:root{
+  --paper:#fbfaf7; --ink:#16181c; --muted:#5c6069; --rule:#e3dfd7; --link:#2f5d7c; --card:#f3f1eb;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0f1114; --ink:#e9e6e0; --muted:#9aa0a8; --rule:#23262b; --link:#84b3d2; --card:#14171b;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0f1114; --ink:#e9e6e0; --muted:#9aa0a8; --rule:#23262b; --link:#84b3d2; --card:#14171b;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  font-size:19px; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:39rem; margin:0 auto; padding:3.5rem 1.25rem 5rem}
+.eyebrow{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.78rem; letter-spacing:.06em; text-transform:none; color:var(--muted); margin:0 0 .6rem;
+}
+h1{font-size:2.1rem; line-height:1.2; margin:0 0 1rem; font-weight:600; text-wrap:balance}
+h2{font-size:1.28rem; line-height:1.35; margin:3rem 0 1rem; font-weight:600; text-wrap:balance}
+p{margin:0 0 1.55rem; text-wrap:pretty}
+a{color:var(--link); text-decoration:underline; text-underline-offset:.16em}
+img{max-width:100%; height:auto; display:block}
+figure{margin:2.4rem 0}
+figcaption{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.82rem; line-height:1.5; color:var(--muted); margin-top:.7rem;
+}
+.lead{font-size:1.12rem}
+.qa{border-top:1px solid var(--rule); padding-top:1.4rem; margin-top:1.4rem}
+.qa:first-of-type{border-top:0}
+.q{font-weight:600; margin:0 0 .55rem}
+.qa p{margin:0}
+.facts{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.9rem; line-height:1.6; background:var(--card); padding:1.3rem 1.4rem; margin:2.4rem 0;
+}
+.facts dl{margin:0; display:grid; grid-template-columns:minmax(7.5rem,auto) 1fr; gap:.5rem 1.2rem}
+.facts dt{color:var(--muted)}
+.facts dd{margin:0}
+footer{
+  border-top:1px solid var(--rule); margin-top:3.5rem; padding-top:1.4rem;
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.86rem; line-height:1.8; color:var(--muted);
+}
+footer a{color:var(--link)}
+@media (max-width:34rem){
+  body{font-size:18px}
+  h1{font-size:1.72rem}
+  .facts dl{grid-template-columns:1fr; gap:.15rem}
+  .facts dd{margin-bottom:.6rem}
+}
+
+.bio{background:var(--card);padding:1.3rem 1.4rem;margin:1.4rem 0}
+.bio p{margin:0 0 1rem}
+.bio p:last-child{margin:0}
+.copybox{font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;font-size:.9rem;line-height:1.6}
+.fig{margin:2.6rem 0}
+.figsvg{width:100%;height:auto;display:block}
+.fig figcaption{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.82rem; line-height:1.5; color:var(--muted); margin-top:.7rem;
+}
+@media (max-width:34rem){ .fig{margin:2rem -1.25rem} }
+
+.q4{border-top:1px solid var(--rule); padding-top:1.6rem; margin-top:2.2rem}
+.qh{font-weight:600; margin:0 0 1rem; font-size:1.15rem}
+.opt{display:flex; gap:.7rem; align-items:flex-start; background:var(--card);
+     padding:.9rem 1rem; margin:0 0 .6rem; cursor:pointer;
+     font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+     font-size:.92rem; line-height:1.55}
+.opt input{margin:.28rem 0 0; accent-color:var(--link); flex:0 0 auto}
+.opt:has(input:checked){outline:2px solid var(--link); outline-offset:-2px}
+.note{font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+      font-size:.86rem; line-height:1.6; color:var(--muted); margin:.9rem 0 0}
+#tally{background:var(--card); padding:1.3rem 1.4rem; margin:2.6rem 0 0;
+       font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+       font-size:.95rem; line-height:1.65}
+#tally p{margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="eyebrow"><a href="/">Isaac Correa</a> &middot; Madrid</p>
+<h1>Four questions to ask before automating anything</h1>
+
+<p class="lead">These are the four questions I put to a company&rsquo;s own people in the first week, before a line of software is written. They are deliberately small &mdash; the impressive questions are the easy ones to fake an answer to. Work through them with your team and mark, honestly, which description is nearer the truth today. Nothing is sent anywhere; the page keeps your answers in your own browser and nowhere else.</p>
+
+<figure>
+  <img src="/isaac-correa-madrid.jpg" width="1200" height="800" alt="Isaac Correa in Madrid, in one of the restaurants of the kind Hellomatik started with" loading="lazy">
+  <figcaption>Isaac Correa, co-founder of <a href="https://hellomatik.com">Hellomatik</a>. These questions came out of doing this in real companies, not out of a framework.</figcaption>
+</figure>
+
+<div class="q4" data-q="0">
+  <p class="qh">1 &middot; Where is this order?</p>
+  <label class="opt"><input type="radio" name="q0" value="a"> <span><strong>Closer to this:</strong> Somebody opens several screens and picks whichever one they trust most today.</span></label>
+  <label class="opt"><input type="radio" name="q0" value="b"> <span><strong>Or closer to this:</strong> One system is named as the one that tells the truth about location, and the others are recorded as copies of it.</span></label>
+  <p class="note">The disagreement between systems is older than any of your software. Naming a winner does not make the other systems wrong; it makes the disagreement resolvable without a person in the middle.</p>
+</div>
+<div class="q4" data-q="1">
+  <p class="qh">2 &middot; Can I ship this one?</p>
+  <label class="opt"><input type="radio" name="q1" value="a"> <span><strong>Closer to this:</strong> It depends who you ask and how busy they are. Everyone knows there is a limit; almost nobody can quote it.</span></label>
+  <label class="opt"><input type="radio" name="q1" value="b"> <span><strong>Or closer to this:</strong> There is a single stated limit, applied identically no matter who is asking, and the cases that get around it are listed next to it.</span></label>
+  <p class="note">The hard part here is never the code. It is the afternoon in which two departments discover they have been applying different limits and both were sure theirs was the policy.</p>
+</div>
+<div class="q4" data-q="2">
+  <p class="qh">3 &middot; Why did nothing happen?</p>
+  <label class="opt"><input type="radio" name="q2" value="a"> <span><strong>Closer to this:</strong> An excavation through logs that ends in a theory.</span></label>
+  <label class="opt"><input type="radio" name="q2" value="b"> <span><strong>Or closer to this:</strong> A sentence: it stopped because an approval was missing, and the record names which one.</span></label>
+  <p class="note">This is the question that changes most when a company writes its rules down, and the one that never appears on anybody&rsquo;s list of requirements.</p>
+</div>
+<div class="q4" data-q="3">
+  <p class="qh">4 &middot; Who decided that?</p>
+  <label class="opt"><input type="radio" name="q3" value="a"> <span><strong>Closer to this:</strong> A pause, a guess, and eventually somebody says that is how it has always been done.</span></label>
+  <label class="opt"><input type="radio" name="q3" value="b"> <span><strong>Or closer to this:</strong> A name and a date, because the rule lives somewhere that has an author and a last-modified field.</span></label>
+  <p class="note">Worth more than it looks. It converts arguments about what the policy <em>is</em> into arguments about what it <em>should be</em>, and only the second kind is worth having.</p>
+</div>
+
+<div id="tally"><p>Mark all four and a short reading appears here. If you have JavaScript switched off, the questions above are the whole of it &mdash; the reading only counts what you marked.</p></div>
+
+<h2>What to do with the answers</h2>
+
+<p>Ask the questions separately, of people in different departments, and write down what they say word for word. If the answers agree, you are further along than most companies and the technical work will be quick. If they do not, you have just found the project &mdash; and the disagreement is worth more than any of the individual answers, because somebody has been absorbing it personally for years.</p>
+
+<p>None of this needs me, or software, or a budget. It needs an afternoon and somebody willing to write down an inconvenient answer. The longer version of why is <a href="/rules/">here</a>, the vocabulary is <a href="/glossary/">here</a>, and the method these come from is published <a href="/method/">with a DOI</a>.</p>
+
+<footer>
+  <p><a href="/">Isaac Correa</a> &middot; <a href="/questions/">Questions</a> &middot; <a href="/glossary/">Glossary</a> &middot; <a href="/writing/">Published elsewhere</a> &middot; <a href="/method/">The method</a> &middot; <a href="https://hellomatik.com">Hellomatik</a></p>
+</footer>
+</div>
+<script>
+(function () {
+  var K = 'isaac-four-questions';
+  var box = document.getElementById('tally');
+  var radios = document.querySelectorAll('.q4 input[type=radio]');
+  function saved() { try { return JSON.parse(localStorage.getItem(K)) || {}; } catch (e) { return {}; } }
+  function store(o) { try { localStorage.setItem(K, JSON.stringify(o)); } catch (e) {} }
+  var state = saved();
+  radios.forEach(function (r) {
+    if (state[r.name] === r.value) r.checked = true;
+    r.addEventListener('change', function () { state[r.name] = r.value; store(state); render(); });
+  });
+  function render() {
+    var n = 0, b = 0;
+    for (var i = 0; i < 4; i++) { if (state['q' + i]) { n++; if (state['q' + i] === 'b') b++; } }
+    if (n < 4) { box.innerHTML = '<p>' + n + ' of 4 marked. The reading appears when all four are.</p>'; return; }
+    var t;
+    if (b === 4) t = 'All four already have a single answer. That is rarer than it sounds, and it means the interesting work for you is not writing rules down but deciding what may act on them.';
+    else if (b >= 2) t = b + ' of the four have a settled answer and ' + (4 - b) + ' do not. The unsettled ones are where an automation project would quietly fail, so they are where to start &mdash; not with the ones that already work.';
+    else if (b === 1) t = 'One of the four is settled. That is a normal place to be, and it is not a criticism of anybody: companies run on people bridging these gaps in their heads. The afternoon that writes the other three down is the whole first step.';
+    else t = 'None of the four has a single answer today. That is the most common result, and it is the reason the first week of this work is a conversation rather than an installation.';
+    box.innerHTML = '<p>' + t + '</p>';
+  }
+  render();
+})();
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "Four questions to ask your own people before automating anything",
+ "description": "Four questions Isaac Correa asks a company before any software is written, as a page you can work through with your own team. No sign-up, nothing sent anywhere, and the answers stay in your browser.",
+ "url": "https://isaac-correa.github.io/four-questions/",
+ "inLanguage": "en",
+ "datePublished": "2026-09-10",
+ "dateModified": "2026-09-10",
+ "author": {
+  "@type": "Person",
+  "@id": "https://isaac-correa.github.io/#isaac-correa",
+  "name": "Isaac Correa"
+ },
+ "image": [
+  "https://isaac-correa.github.io/isaac-correa-madrid.jpg"
+ ],
+ "step": [
+  {
+   "@type": "HowToStep",
+   "position": 1,
+   "name": "Where is this order?",
+   "text": "Ask your own people. Two answers to compare: “Somebody opens several screens and picks whichever one they trust most today.” or “One system is named as the one that tells the truth about location, and the others are recorded as copies of it.”"
+  },
+  {
+   "@type": "HowToStep",
+   "position": 2,
+   "name": "Can I ship this one?",
+   "text": "Ask your own people. Two answers to compare: “It depends who you ask and how busy they are. Everyone knows there is a limit; almost nobody can quote it.” or “There is a single stated limit, applied identically no matter who is asking, and the cases that get around it are listed next to it.”"
+  },
+  {
+   "@type": "HowToStep",
+   "position": 3,
+   "name": "Why did nothing happen?",
+   "text": "Ask your own people. Two answers to compare: “An excavation through logs that ends in a theory.” or “A sentence: it stopped because an approval was missing, and the record names which one.”"
+  },
+  {
+   "@type": "HowToStep",
+   "position": 4,
+   "name": "Who decided that?",
+   "text": "Ask your own people. Two answers to compare: “A pause, a guess, and eventually somebody says that is how it has always been done.” or “A name and a date, because the rule lives somewhere that has an author and a last-modified field.”"
+  }
+ ]
+}
+</script>
+</body>
+</html>

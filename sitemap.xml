@@ -215,4 +215,15 @@
     <image:caption>Isaac Correa, co-founder of Hellomatik, in Madrid</image:caption>
   </image:image>
 </url>
+<url>
+  <loc>https://isaac-correa.github.io/four-questions/</loc>
+  <lastmod>2026-09-10</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <image:image>
+    <image:loc>https://isaac-correa.github.io/isaac-correa-madrid.jpg</image:loc>
+    <image:title>Isaac Correa</image:title>
+    <image:caption>Isaac Correa in Madrid, in one of the restaurants of the kind Hellomatik started with</image:caption>
+  </image:image>
+</url>
 </urlset>
