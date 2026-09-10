@@ -73,7 +73,7 @@
 - HackerNoon: https://hackernoon.com/u/IsaacCorrea_k24cceus
 - ResearchGate: https://www.researchgate.net/profile/Isaac-Correa-4
 - Figshare: https://figshare.com/authors/Isaac_Correa/24723442
-- SSRN: both papers submitted on 10 September 2026 and under editorial review at the time of writing; the abstract pages become public once that review completes
+- SSRN: "How we build a company's ontology" is posted since 10 September 2026 at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442444 (26 pages, downloadable). "The machine of the future" was submitted the same day and its page is not public yet. Posted on SSRN means it is in the library, not that it was reviewed.
   - The Machine of the Future: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442403
   - How We Build a Company's Ontology: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442444
 - ORCID: https://orcid.org/0009-0003-0657-4419
