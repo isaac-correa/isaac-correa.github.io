@@ -127,19 +127,34 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
+  
+  <image:image>
+    <image:loc>https://isaac-correa.github.io/isaac-correa-madrid.jpg</image:loc>
+    <image:title>Isaac Correa</image:title>
+    <image:caption>Isaac Correa in Madrid, in one of the restaurants of the kind Hellomatik started with</image:caption>
+  </image:image></url>
   <url>
     <loc>https://isaac-correa.github.io/selling/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
+  
+  <image:image>
+    <image:loc>https://isaac-correa.github.io/isaac-correa.jpg</image:loc>
+    <image:title>Isaac Correa</image:title>
+    <image:caption>Isaac Correa, co-founder of Hellomatik, in Madrid</image:caption>
+  </image:image></url>
   <url>
     <loc>https://isaac-correa.github.io/product/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
+  
+  <image:image>
+    <image:loc>https://isaac-correa.github.io/isaac-correa-avatar.jpg</image:loc>
+    <image:title>Isaac Correa</image:title>
+    <image:caption>Isaac Correa, square portrait used as profile picture</image:caption>
+  </image:image></url>
   <url>
     <loc>https://isaac-correa.github.io/photos/</loc>
     <lastmod>2026-09-10</lastmod>
@@ -166,12 +181,27 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
+  
+  <image:image>
+    <image:loc>https://isaac-correa.github.io/isaac-correa.jpg</image:loc>
+    <image:title>Isaac Correa</image:title>
+    <image:caption>Isaac Correa, co-founder of Hellomatik, in Madrid</image:caption>
+  </image:image></url>
   <url>
     <loc>https://isaac-correa.github.io/press/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-<url><loc>https://isaac-correa.github.io/writing/</loc><lastmod>2026-09-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  
+  <image:image>
+    <image:loc>https://isaac-correa.github.io/isaac-correa.jpg</image:loc>
+    <image:title>Isaac Correa</image:title>
+    <image:caption>Isaac Correa, co-founder of Hellomatik, in Madrid</image:caption>
+  </image:image></url>
+<url><loc>https://isaac-correa.github.io/writing/</loc><lastmod>2026-09-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  <image:image>
+    <image:loc>https://isaac-correa.github.io/isaac-correa-madrid.jpg</image:loc>
+    <image:title>Isaac Correa</image:title>
+    <image:caption>Isaac Correa in Madrid, in one of the restaurants of the kind Hellomatik started with</image:caption>
+  </image:image></url>
 </urlset>
