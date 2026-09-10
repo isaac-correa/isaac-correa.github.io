@@ -51,6 +51,8 @@
 - Photographs of Isaac Correa, free to reuse with attribution: https://isaac-correa.github.io/photos/
 - A timeline of his working life with a source for every date: https://isaac-correa.github.io/timeline/
 - Press kit: bios of three lengths, photographs and checkable facts: https://isaac-correa.github.io/press/
+- Everything he has published away from this site, with a link to each piece: https://isaac-correa.github.io/writing/
+- The vocabulary he works in, each word defined with what it is not: https://isaac-correa.github.io/glossary/
 - Wellfound: https://wellfound.com/u/isaac-correa-1
 - Code: https://github.com/isaac-correa
 - Crunchbase: https://www.crunchbase.com/person/isaac-correa-villa
