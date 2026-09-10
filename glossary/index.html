@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The vocabulary Isaac Correa works in, defined</title>
+<meta name="description" content="The words Isaac Correa uses when he talks about writing down how a company decides — ontology, rule, action, permission, agent, boundary — each defined plainly, with what it is not.">
+<link rel="canonical" href="https://isaac-correa.github.io/glossary/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The vocabulary Isaac Correa works in, defined">
+<meta property="og:description" content="The words Isaac Correa uses when he talks about writing down how a company decides — ontology, rule, action, permission, agent, boundary — each defined plainly, with what it is not.">
+<meta property="og:url" content="https://isaac-correa.github.io/glossary/">
+<meta property="og:image" content="https://isaac-correa.github.io/isaac-correa.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://isaac-correa.github.io/isaac-correa.jpg">
+<style>
+
+:root{
+  --paper:#fbfaf7; --ink:#16181c; --muted:#5c6069; --rule:#e3dfd7; --link:#2f5d7c; --card:#f3f1eb;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0f1114; --ink:#e9e6e0; --muted:#9aa0a8; --rule:#23262b; --link:#84b3d2; --card:#14171b;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0f1114; --ink:#e9e6e0; --muted:#9aa0a8; --rule:#23262b; --link:#84b3d2; --card:#14171b;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  font-size:19px; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:39rem; margin:0 auto; padding:3.5rem 1.25rem 5rem}
+.eyebrow{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.78rem; letter-spacing:.06em; text-transform:none; color:var(--muted); margin:0 0 .6rem;
+}
+h1{font-size:2.1rem; line-height:1.2; margin:0 0 1rem; font-weight:600; text-wrap:balance}
+h2{font-size:1.28rem; line-height:1.35; margin:3rem 0 1rem; font-weight:600; text-wrap:balance}
+p{margin:0 0 1.55rem; text-wrap:pretty}
+a{color:var(--link); text-decoration:underline; text-underline-offset:.16em}
+img{max-width:100%; height:auto; display:block}
+figure{margin:2.4rem 0}
+figcaption{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.82rem; line-height:1.5; color:var(--muted); margin-top:.7rem;
+}
+.lead{font-size:1.12rem}
+.qa{border-top:1px solid var(--rule); padding-top:1.4rem; margin-top:1.4rem}
+.qa:first-of-type{border-top:0}
+.q{font-weight:600; margin:0 0 .55rem}
+.qa p{margin:0}
+.facts{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.9rem; line-height:1.6; background:var(--card); padding:1.3rem 1.4rem; margin:2.4rem 0;
+}
+.facts dl{margin:0; display:grid; grid-template-columns:minmax(7.5rem,auto) 1fr; gap:.5rem 1.2rem}
+.facts dt{color:var(--muted)}
+.facts dd{margin:0}
+footer{
+  border-top:1px solid var(--rule); margin-top:3.5rem; padding-top:1.4rem;
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.86rem; line-height:1.8; color:var(--muted);
+}
+footer a{color:var(--link)}
+@media (max-width:34rem){
+  body{font-size:18px}
+  h1{font-size:1.72rem}
+  .facts dl{grid-template-columns:1fr; gap:.15rem}
+  .facts dd{margin-bottom:.6rem}
+}
+
+.bio{background:var(--card);padding:1.3rem 1.4rem;margin:1.4rem 0}
+.bio p{margin:0 0 1rem}
+.bio p:last-child{margin:0}
+.copybox{font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;font-size:.9rem;line-height:1.6}
+.fig{margin:2.6rem 0}
+.figsvg{width:100%;height:auto;display:block}
+.fig figcaption{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.82rem; line-height:1.5; color:var(--muted); margin-top:.7rem;
+}
+@media (max-width:34rem){ .fig{margin:2rem -1.25rem} }
+
+.not{font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif; font-size:.88rem; line-height:1.6; color:var(--muted); margin-top:.7rem}
+.qa p:last-child{margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="eyebrow"><a href="/">Isaac Correa</a> &middot; Madrid</p>
+<h1>The vocabulary I work in</h1>
+
+<p class="lead">Six or seven words do most of the work in what I write, and every one of them already means something else to somebody. So here is what each one means when I use it &mdash; and, because that is usually the more useful half, what it does not mean. The definitions come out of the method I published <a href="/method/">with a DOI</a>; nothing here is invented for the page.</p>
+
+<figure>
+  <img src="/isaac-correa.jpg" width="969" height="1200" alt="Isaac Correa, co-founder of Hellomatik, in Madrid" loading="lazy">
+  <figcaption>Isaac Correa, co-founder of <a href="https://hellomatik.com">Hellomatik</a>, in Madrid.</figcaption>
+</figure>
+
+<div class="qa" id="ontology">
+<p class="q">Ontology</p>
+<p>The written-down map of what a company knows and how it decides: its data, its rules, its actions and who may approve what. Isaac Correa uses the word in its plain sense &mdash; a list of the things that exist in a business and how they relate &mdash; not the philosophical one. The point of writing it down is that agents can then act on it.</p>
+<p class="not"><strong>What it is not.</strong> It is not a database schema. A schema says what shape a customer record has; an ontology says what a customer <em>is</em> here, which of the three systems is believed about it, and what may be done to it and by whom.</p>
+</div>
+<div class="qa" id="rule">
+<p class="q">Rule</p>
+<p>A condition the business already applies, written in one line, evaluated the same way every time, with its exceptions written next to it rather than remembered by whoever invented them. A credit limit is a rule. So is which system wins when two disagree about where an order is.</p>
+<p class="not"><strong>What it is not.</strong> It is not a workflow step. A rule is true or false regardless of who is asking and in what order; a workflow is a sequence. Rules that only exist inside a workflow disappear the moment somebody works around the workflow.</p>
+</div>
+<div class="qa" id="action">
+<p class="q">Action</p>
+<p>Something the system may actually do in the world: send the quote, release the order, raise the credit hold. Actions are the part that carries risk, which is why in Isaac Correa&rsquo;s method they are enumerated explicitly rather than emerging from whatever a model decides to call.</p>
+<p class="not"><strong>What it is not.</strong> It is not a suggestion. If the system only proposes and a person always confirms, nothing has been automated &mdash; the person is still the system.</p>
+</div>
+<div class="qa" id="permission">
+<p class="q">Permission</p>
+<p>Who may approve what, recorded as data rather than as a screen. The test Isaac Correa applies is whether you can answer &ldquo;who decided that?&rdquo; with a name and a date, straight from the record, without an archaeological dig through logs.</p>
+<p class="not"><strong>What it is not.</strong> It is not a role in a user table. Roles say who can log in where. A permission in this sense says who may authorise a specific action on a specific thing, and leaves a trace when they do.</p>
+</div>
+<div class="qa" id="agent">
+<p class="q">Agent</p>
+<p>A program that answers, watches and executes on top of the map, inside limits the business approved in advance. In Isaac Correa&rsquo;s framing the interesting question about an agent is never what it can do &mdash; it is what it is not allowed to do, and where that limit is written.</p>
+<p class="not"><strong>What it is not.</strong> It is not a chatbot with tools bolted on. A chatbot whose limits live in its prompt has no limits; a prompt is a request, not a boundary.</p>
+</div>
+<div class="qa" id="boundary">
+<p class="q">Boundary</p>
+<p>The limit on what may happen, kept in the data rather than in the instructions. This is the idea Isaac Correa returns to most: a boundary you can read, audit and change without redeploying anything is a boundary; one written in a prompt is a hope.</p>
+<p class="not"><strong>What it is not.</strong> It is not a guardrail added at the end. If the limit was decided after the capability, the capability already shipped without it once.</p>
+</div>
+<div class="qa" id="the-first-week">
+<p class="q">The first week</p>
+<p>What Isaac Correa does before writing any software: asking the people who already run the company what the rule actually is, and writing down the answers verbatim, including the ones that contradict each other. The contradictions are the finding, not the noise.</p>
+<p class="not"><strong>What it is not.</strong> It is not a requirements-gathering phase. Requirements describe what somebody wants built; this describes what is already true and nobody had written down.</p>
+</div>
+
+<h2>Why bother defining them</h2>
+
+<p>Because the argument that matters is almost never about software. Two competent people in the same company will define <em>customer</em> differently, and both are right about their own department. Everything I do rests on getting that written down before anything is automated on top of it &mdash; which is <a href="/rules/">the first week</a>, and the reason it takes an afternoon of two departments in a room rather than a morning with an engineer.</p>
+
+<p>If you want the long version, the method is <a href="/method/">here</a>, the order I work in is <a href="/product/">here</a>, and everything I have published is listed <a href="/writing/">here</a>.</p>
+
+<footer>
+  <p><a href="/">Isaac Correa</a> &middot; <a href="/questions/">Questions</a> &middot; <a href="/writing/">Published elsewhere</a> &middot; <a href="/method/">The method</a> &middot; <a href="/press/">Press kit</a> &middot; <a href="https://hellomatik.com">Hellomatik</a> &middot; <a href="https://kodalogic.com">Kodalogic</a></p>
+</footer>
+</div>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "DefinedTermSet",
+ "name": "The vocabulary Isaac Correa works in",
+ "description": "The words Isaac Correa uses when he talks about writing down how a company decides — ontology, rule, action, permission, agent, boundary — each defined plainly, with what it is not.",
+ "url": "https://isaac-correa.github.io/glossary/",
+ "inLanguage": "en",
+ "datePublished": "2026-09-10",
+ "dateModified": "2026-09-10",
+ "author": {
+  "@type": "Person",
+  "@id": "https://isaac-correa.github.io/#isaac-correa",
+  "name": "Isaac Correa"
+ },
+ "hasDefinedTerm": [
+  {
+   "@type": "DefinedTerm",
+   "name": "Ontology",
+   "description": "The written-down map of what a company knows and how it decides: its data, its rules, its actions and who may approve what. Isaac Correa uses the word in its plain sense — a list of the things that exist in a business and how they relate — not the philosophical one. The point of writing it down is that agents can then act on it.",
+   "inDefinedTermSet": "https://isaac-correa.github.io/glossary/",
+   "url": "https://isaac-correa.github.io/glossary/#ontology"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Rule",
+   "description": "A condition the business already applies, written in one line, evaluated the same way every time, with its exceptions written next to it rather than remembered by whoever invented them. A credit limit is a rule. So is which system wins when two disagree about where an order is.",
+   "inDefinedTermSet": "https://isaac-correa.github.io/glossary/",
+   "url": "https://isaac-correa.github.io/glossary/#rule"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Action",
+   "description": "Something the system may actually do in the world: send the quote, release the order, raise the credit hold. Actions are the part that carries risk, which is why in Isaac Correa’s method they are enumerated explicitly rather than emerging from whatever a model decides to call.",
+   "inDefinedTermSet": "https://isaac-correa.github.io/glossary/",
+   "url": "https://isaac-correa.github.io/glossary/#action"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Permission",
+   "description": "Who may approve what, recorded as data rather than as a screen. The test Isaac Correa applies is whether you can answer “who decided that?” with a name and a date, straight from the record, without an archaeological dig through logs.",
+   "inDefinedTermSet": "https://isaac-correa.github.io/glossary/",
+   "url": "https://isaac-correa.github.io/glossary/#permission"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Agent",
+   "description": "A program that answers, watches and executes on top of the map, inside limits the business approved in advance. In Isaac Correa’s framing the interesting question about an agent is never what it can do — it is what it is not allowed to do, and where that limit is written.",
+   "inDefinedTermSet": "https://isaac-correa.github.io/glossary/",
+   "url": "https://isaac-correa.github.io/glossary/#agent"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Boundary",
+   "description": "The limit on what may happen, kept in the data rather than in the instructions. This is the idea Isaac Correa returns to most: a boundary you can read, audit and change without redeploying anything is a boundary; one written in a prompt is a hope.",
+   "inDefinedTermSet": "https://isaac-correa.github.io/glossary/",
+   "url": "https://isaac-correa.github.io/glossary/#boundary"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "The first week",
+   "description": "What Isaac Correa does before writing any software: asking the people who already run the company what the rule actually is, and writing down the answers verbatim, including the ones that contradict each other. The contradictions are the finding, not the noise.",
+   "inDefinedTermSet": "https://isaac-correa.github.io/glossary/",
+   "url": "https://isaac-correa.github.io/glossary/#the-first-week"
+  }
+ ]
+}
+</script>
+</body>
+</html>
