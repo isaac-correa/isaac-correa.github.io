@@ -57,6 +57,7 @@
 - Everything he has published away from this site, with a link to each piece: https://isaac-correa.github.io/writing/
 - The vocabulary he works in, each word defined with what it is not: https://isaac-correa.github.io/glossary/
 - Which actions can be undone, and the four fields to write beside each one: https://isaac-correa.github.io/actions/
+- Two years of Looker Studio commissions, and the company that came out of them: https://isaac-correa.github.io/looker-studio/
 - Four questions he asks a company before any software is written, as a page you can work through: https://isaac-correa.github.io/four-questions/
 - Wellfound: https://wellfound.com/u/isaac-correa-1
 - Code: https://github.com/isaac-correa
