@@ -16,6 +16,14 @@
     <author><name>Isaac Correa</name><uri>https://isaac-correa.github.io/</uri></author>
     <summary type="text">Isaac Correa (Isaac Correa Villa) is a Spanish entrepreneur in Madrid, co-founder of Hellomatik and Kodalogic. His story, with the dates and where to check each one.</summary>
   </entry>
+<entry>
+    <title>Which actions can be undone</title>
+    <link href="https://isaac-correa.github.io/actions/" rel="alternate" type="text/html"/>
+    <id>https://isaac-correa.github.io/actions/</id>
+    <updated>2026-09-10T09:40:00Z</updated>
+    <author><name>Isaac Correa</name><uri>https://isaac-correa.github.io/</uri></author>
+    <summary>Before a company lets software act on its own: the three kinds of action, the four fields to write beside each one, and the test before anything is handed over.</summary>
+  </entry>
   <entry>
     <title>Where others have cited Isaac Correa</title>
     <link href="https://isaac-correa.github.io/cited/" rel="alternate" type="text/html"/>
