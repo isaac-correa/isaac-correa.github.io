@@ -72,6 +72,7 @@
 - HackerNoon: https://hackernoon.com/u/IsaacCorrea_k24cceus
 - ResearchGate: https://www.researchgate.net/profile/Isaac-Correa-4
 - Figshare: https://figshare.com/authors/Isaac_Correa/24723442
+- SSRN (author page and papers): https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442403
 - ORCID: https://orcid.org/0009-0003-0657-4419
 - OpenAlex (author record, linked to the ORCID): https://openalex.org/authors/A5150662307
 - OpenAIRE (European open science aggregator; holds the method report from its Zenodo deposit)
