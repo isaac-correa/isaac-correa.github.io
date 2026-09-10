@@ -16,6 +16,7 @@
 ## Pages
 
 - [Home](https://isaac-correa.github.io/): who he is, the story in short, and the questions people ask with their answers
+- [Quién es Isaac Correa, en castellano](https://isaac-correa.github.io/es/): the same account written in Spanish, his own language, not translated from the English
 - [The story](https://isaac-correa.github.io/story/): the long version, with every date
 - [The companies](https://isaac-correa.github.io/companies/): what Hellomatik and Kodalogic do, who they are for, and where each fact can be checked
 - [Cited by others](https://isaac-correa.github.io/cited/): where third parties used his work as a source — Mordor Intelligence cites him by name; DentistryIQ links to Hellomatik alongside PubMed, PMC and Frontiers
