@@ -189,12 +189,6 @@ footer a{color:var(--link)}
 
 <p>It also decides where the limit lives. A limit written into a prompt is a request to the model. A limit written as data is not self-enforcing either &mdash; something still has to check the row before acting, and that check is code somebody has to write. What changes is that the limit can be read by someone who did not write the prompt, audited after the fact, and changed without redeploying.</p>
 
-<h2>What it looks like at production size</h2>
-
-<p>The method is published in full as a <a href="/method/">technical report with a DOI</a>. It declares its limits, and the figures there are the closest thing to a size on this page. Four systems in production at the time of writing; the report describes two of them in any detail. One is B2B, recalculating 29,000 customers every night over 14 million sales lines. The other is logistics: 24 rules applied against live ERP and warehouse data, across 30 million operations and 460,000 locations.</p>
-
-<p>Those are counts of what the systems run over, not of what they improved, and the report is my own deposit rather than an audit by anyone else. So they are a description of size and nothing more.</p>
-
 <h2>What the document turned out to be</h2>
 
 <p>By this point the document had four parts. I did not arrive at them by design; each is what was left over from a problem further up this page, and I am laying them out in that order so the derivation can be checked rather than taken.</p>
@@ -204,6 +198,12 @@ footer a{color:var(--link)}
 <p>Data, rules, actions, permissions. The word for that is ontology, used the way information systems have used it for decades rather than the way philosophy does &mdash; I <a href="/glossary/">define it, and what it is not, on another page</a>. It is an unfashionable term and I keep it because the alternatives mislead: &ldquo;knowledge base&rdquo; suggests pages for a human to read, and &ldquo;configuration&rdquo; suggests settings for a program that already exists. This is neither. It is a company stating its own decisions in a form that something other than a person can act on.</p>
 
 <p>The version I ended up with is written out in full in the report, called &ldquo;How we build a company&rsquo;s ontology&rdquo;. What it mostly contains is the order to ask things in and the mistakes that make you redo the first week.</p>
+
+<h2>What it looks like at production size</h2>
+
+<p>The method is published in full as a <a href="/method/">technical report with a DOI</a>. It declares its limits, and the figures there are the closest thing to a size on this page. Four systems in production at the time of writing; the report describes two of them in any detail. One is B2B, recalculating 29,000 customers every night over 14 million sales lines. The other is logistics: 24 rules applied against live ERP and warehouse data, across 30 million operations and 460,000 locations.</p>
+
+<p>Those are counts of what the systems run over, not of what they improved, and the report is my own deposit rather than an audit by anyone else. So they are a description of size and nothing more.</p>
 
 <h2>The checkable part</h2>
 
