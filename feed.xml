@@ -160,4 +160,12 @@
     <author><name>Isaac Correa</name><uri>https://isaac-correa.github.io/</uri></author>
     <summary type="text">Everything Isaac Correa has published away from this site, in one list with real links: the two papers with a DOI, the letters, the blog and the articles, each with what it is and where it lives.</summary>
   </entry>
+<entry>
+    <title>How Hellomatik started</title>
+    <link href="https://isaac-correa.github.io/how-hellomatik-started/" rel="alternate" type="text/html"/>
+    <id>https://isaac-correa.github.io/how-hellomatik-started/</id>
+    <updated>2026-09-10T11:15:00Z</updated>
+    <author><name>Isaac Correa</name><uri>https://isaac-correa.github.io/</uri></author>
+    <summary>From a system that answered restaurant phone calls to writing down which system a company believes about each thing, and what has to exist before software is allowed to act.</summary>
+  </entry>
 </feed>
