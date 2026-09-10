@@ -40,6 +40,8 @@
   - The machine of the future: https://isaaccorreavilla.blogspot.com/2026/09/the-machine-of-future-by-isaac-correa.html
   - The questions people ask about Isaac Correa, answered with a source: https://isaaccorreavilla.blogspot.com/2026/09/the-questions-people-ask-about-isaac.html
   - Who cited Isaac Correa, and what they were actually looking for: https://isaaccorreavilla.blogspot.com/2026/09/who-cited-isaac-correa-and-what-they.html
+- Hashnode blog: https://isaaccorrea.hashnode.dev
+  - The blank canvas problem, and why I stopped selling dashboards: https://isaaccorrea.hashnode.dev/the-blank-canvas-problem-and-why-i-stopped-selling-dashboards
 - Indie Hackers: https://www.indiehackers.com/isaaccorrea
 - Mastodon: https://mastodon.social/@isaaccorrea
 - Tumblr: https://isaaccorrea.tumblr.com
