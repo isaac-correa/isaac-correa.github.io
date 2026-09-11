@@ -104,6 +104,11 @@ th,td{text-align:left; vertical-align:top; padding:.55rem .8rem .55rem 0; border
 th{font-weight:600; color:var(--muted)}
 .tablewrap{overflow-x:auto}
 @media (max-width:34rem){ .toc ol{columns:1} }
+.bar{position:sticky; top:0; z-index:2; background:var(--paper); border-bottom:1px solid var(--rule);
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif; font-size:.8rem; line-height:1.4}
+.bar .in{max-width:39rem; margin:0 auto; padding:.55rem 1.25rem; display:flex; gap:1.1rem; flex-wrap:wrap; color:var(--muted)}
+.bar a{text-decoration:none; color:var(--link)}
+.bar .who{color:var(--ink); margin-right:auto}
 </style>
 <script type="application/ld+json">
 {
@@ -117,7 +122,8 @@ th{font-weight:600; color:var(--muted)}
 </script>
 </head>
 <body>
-<div class="wrap">
+<div class="bar"><div class="in"><a class="who" href="/">Isaac Correa</a><a href="#top">Top</a><a href="#contents">Contents</a><a href="#notes">Notes</a><a href="/the-map-of-a-company-isaac-correa.pdf">PDF</a></div></div>
+<div class="wrap" id="top">
 <p class="eyebrow"><a href="/">Isaac Correa</a> &middot; Madrid &middot; September 2026</p>
 <h1>The map of a company</h1>
 <p class="eyebrow">What a business has to write down before software may act inside it, and what changes once it has</p>
@@ -126,7 +132,7 @@ th{font-weight:600; color:var(--muted)}
 
 <p>It says what I think a company has to write down before software may act inside it, why almost no company has written it, what the writing costs, and what changes once it exists. Everything in it comes from those published documents or from the sources they cite; where a figure comes from a client system, it is stated with what it does not show.<sup class="fn"><a href="#n1" id="r1">1</a></sup></p>
 
-<nav class="toc" aria-label="Contents">
+<nav class="toc" id="contents" aria-label="Contents">
 <p class="toc-title">Contents</p>
 <ol>
 <li><a href="#s1">Where this comes from</a></li>
