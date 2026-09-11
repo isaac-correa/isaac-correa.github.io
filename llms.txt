@@ -21,8 +21,12 @@
 - [The companies](https://isaac-correa.github.io/companies/): what Hellomatik and Kodalogic do, who they are for, and where each fact can be checked
 - [Cited by others](https://isaac-correa.github.io/cited/): where third parties used his work as a source — Mordor Intelligence cites him by name; DentistryIQ links to Hellomatik alongside PubMed, PMC and Frontiers
 - [The method](https://isaac-correa.github.io/method/): what the technical report contains and where to read it
-- [Questions people ask](https://isaac-correa.github.io/questions/): fifty short answers about him and Hellomatik, each with a source
+- [Questions people ask](https://isaac-correa.github.io/questions/): fifty-six short answers about him and Hellomatik, each with a source
 - [Copy until you find creativity where there is none](https://isaac-correa.github.io/innovation/): how he thinks about innovation
+- [The people I look for](https://isaac-correa.github.io/people/): the two signs he looks for in people, neither of them on a CV
+- [The cliff of innovation](https://isaac-correa.github.io/cliff/): his name for the point where building stops being the hard part and integrating becomes it
+- [A product is aimed at one person, or at nobody](https://isaac-correa.github.io/one-person/): the sales lesson from a property seller
+- [The tool exists before it is built](https://isaac-correa.github.io/before-building/): what he found comparing the summer's design with the finished product
 - [The machine of the future](https://isaac-correa.github.io/machine/): an essay written in November 2025 on what the next tool is
 
 ## Elsewhere

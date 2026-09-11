@@ -257,4 +257,28 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority></url>
+<url>
+  <loc>https://isaac-correa.github.io/people/</loc>
+  <lastmod>2026-09-11</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://isaac-correa.github.io/cliff/</loc>
+  <lastmod>2026-09-11</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://isaac-correa.github.io/one-person/</loc>
+  <lastmod>2026-09-11</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://isaac-correa.github.io/before-building/</loc>
+  <lastmod>2026-09-11</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
 </urlset>
