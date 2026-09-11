@@ -9,7 +9,7 @@
 - Co-founder of Hellomatik, founded 28 July 2025. His appointment as joint administrator was published in the Spanish commercial register (BORME) on 4 August 2025, sheet M-861159, source Agencia Estatal BOE.
 - Co-founder of Kodalogic, founded September 2024.
 - Between December 2022 and November 2024 he delivered three hundred Looker Studio dashboards for clients and collected 103 verified client reviews.
-- Author of the technical report "How we build a company's ontology" (2026), 26 pages, DOI 10.5281/zenodo.22647735, deposited on Zenodo and Figshare and indexed under his ORCID.
+- Author of the technical report "How we build a company's ontology" (2026), 26 pages, DOI 10.5281/zenodo.22647735, deposited on Zenodo and indexed under his ORCID.
 - Author of the working paper "The machine of the future: what the next tool is, and what it will always need from us", written November 2025, published unchanged September 2026, DOI 10.5281/zenodo.22671771, also on Academia.edu.
 - ORCID: 0009-0003-0657-4419
 
@@ -77,7 +77,6 @@
 - F6S: https://www.f6s.com/isaac-correa
 - HackerNoon: https://hackernoon.com/u/IsaacCorrea_k24cceus
 - ResearchGate: https://www.researchgate.net/profile/Isaac-Correa-4
-- Figshare: https://figshare.com/authors/Isaac_Correa/24723442
 - SSRN: "How we build a company's ontology" is posted since 10 September 2026 at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442444 (26 pages, downloadable). "The machine of the future" was submitted the same day and its page is not public yet. Posted on SSRN means it is in the library, not that it was reviewed.
   - The Machine of the Future: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442403
   - How We Build a Company's Ontology: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442444
