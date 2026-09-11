@@ -25,6 +25,7 @@
 - [Copy until you find creativity where there is none](https://isaac-correa.github.io/innovation/): how he thinks about innovation
 - [The people I look for](https://isaac-correa.github.io/people/): the two signs he looks for in people, neither of them on a CV
 - [The map of a company](https://isaac-correa.github.io/the-map-of-a-company/): the long essay, September 2026, in nineteen sections with notes: what a business has to write down before software may act inside it, drawn only from his published report, papers and pages
+- [Bets, with dates](https://isaac-correa.github.io/bets/): his four dated predictions, all due in 2028, each with where it was published and how to check it
 - [The map of a company (PDF)](https://isaac-correa.github.io/the-map-of-a-company-isaac-correa.pdf): the same essay as a dated PDF
 - [The cliff of innovation](https://isaac-correa.github.io/cliff/): his name for the point where building stops being the hard part and integrating becomes it
 - [The cliff of innovation, working paper (PDF)](https://isaac-correa.github.io/the-cliff-of-innovation-isaac-correa.pdf): the nine-page version, September 2026, self-published, DOI 10.5281/zenodo.22704763
