@@ -25,7 +25,7 @@
 - [Copy until you find creativity where there is none](https://isaac-correa.github.io/innovation/): how he thinks about innovation
 - [The people I look for](https://isaac-correa.github.io/people/): the two signs he looks for in people, neither of them on a CV
 - [The cliff of innovation](https://isaac-correa.github.io/cliff/): his name for the point where building stops being the hard part and integrating becomes it
-- [The cliff of innovation, working paper (PDF)](https://isaac-correa.github.io/the-cliff-of-innovation-isaac-correa.pdf): the nine-page version, September 2026, self-published
+- [The cliff of innovation, working paper (PDF)](https://isaac-correa.github.io/the-cliff-of-innovation-isaac-correa.pdf): the nine-page version, September 2026, self-published, DOI 10.5281/zenodo.22704763
 - [A product is aimed at one person, or at nobody](https://isaac-correa.github.io/one-person/): the sales lesson from a property seller
 - [The tool exists before it is built](https://isaac-correa.github.io/before-building/): what he found comparing the summer's design with the finished product
 - [The machine of the future](https://isaac-correa.github.io/machine/): an essay written in November 2025 on what the next tool is
