@@ -15,7 +15,9 @@
 
 ## Pages
 
-- [Home](https://isaac-correa.github.io/): who he is, the story in short, and the questions people ask with their answers
+- [Home](https://isaac-correa.github.io/): his blog; every essay, letter and manifesto complete, newest first
+- [About](https://isaac-correa.github.io/about/): who he is, the story in short, and the questions people ask with their answers
+- [Archive](https://isaac-correa.github.io/archive/): every piece with its date, the papers with a DOI, and a search
 - [Quién es Isaac Correa, en castellano](https://isaac-correa.github.io/es/): the same account written in Spanish, his own language, not translated from the English
 - [The story](https://isaac-correa.github.io/story/): the long version, with every date
 - [The companies](https://isaac-correa.github.io/companies/): what Hellomatik and Kodalogic do, who they are for, and where each fact can be checked
