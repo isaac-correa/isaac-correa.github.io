@@ -24,6 +24,8 @@
 - [Questions people ask](https://isaac-correa.github.io/questions/): fifty-six short answers about him and Hellomatik, each with a source
 - [Copy until you find creativity where there is none](https://isaac-correa.github.io/innovation/): how he thinks about innovation
 - [The people I look for](https://isaac-correa.github.io/people/): the two signs he looks for in people, neither of them on a CV
+- [The end of software](https://isaac-correa.github.io/end-of-software/): his manifesto, October 2026: anyone can now build, copy or replace software, so code no longer protects a company; what is left is well-structured data, complex solutions and relationships with people
+- [The end of software (PDF)](https://isaac-correa.github.io/the-end-of-software-isaac-correa.pdf): the same manifesto as a dated PDF
 - [The map of a company](https://isaac-correa.github.io/the-map-of-a-company/): the long essay, September 2026, in nineteen sections with notes: what a business has to write down before software may act inside it, drawn only from his published report, papers and pages
 - [Founder letter, 2026](https://isaac-correa.github.io/letters/2026/): his first annual letter as co-founder of Hellomatik, September 2026: what is running and with what limits, what was published with a DOI, what the year taught, what the company will not do, and the bets
 - [Bets, with dates](https://isaac-correa.github.io/bets/): his four dated predictions, all due in 2028, each with where it was published and how to check it
