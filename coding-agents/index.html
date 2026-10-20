@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What changes a coding agent's behaviour &#8212; Isaac Correa</title>
+<meta name="description" content="Isaac Correa's study of eight months of his own daily work with Claude Code: whether the model, the rules he wrote or the guards that block a broken rule changed how the agent behaved, and what his own supervision turned into.">
+<link rel="canonical" href="https://isaac-correa.github.io/coding-agents/">
+<link rel="alternate" type="application/atom+xml" title="Isaac Correa" href="/feed.xml">
+<link rel="alternate" type="application/pdf" href="https://isaac-correa.github.io/what-changes-a-coding-agents-behaviour-isaac-correa.pdf">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="What changes a coding agent's behaviour &#8212; Isaac Correa">
+<meta property="og:description" content="Eight months of daily work with Claude Code, measured: the model mattered more than the rules, guards filtered without teaching, and supervision moved from correcting the work to directing it.">
+<meta property="og:url" content="https://isaac-correa.github.io/coding-agents/">
+<meta property="og:image" content="https://isaac-correa.github.io/og/card-coding-agents.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://isaac-correa.github.io/og/card-coding-agents.jpg">
+<meta name="citation_title" content="What changes a coding agent's behaviour: models, written rules and runtime guards over eight months of daily use of Claude Code">
+<meta name="citation_author" content="Correa, Isaac">
+<meta name="citation_author_orcid" content="0009-0003-0657-4419">
+<meta name="citation_publication_date" content="2026/10/20">
+<meta name="citation_online_date" content="2026/10/20">
+<meta name="citation_pdf_url" content="https://isaac-correa.github.io/what-changes-a-coding-agents-behaviour-isaac-correa.pdf">
+<meta name="citation_technical_report_institution" content="Hellomatik">
+<meta name="citation_language" content="en">
+<meta name="citation_keywords" content="coding agents; AI agent governance; runtime guardrails; instruction following; human oversight; agentic software engineering">
+<style>
+:root{
+  --paper:#fbfaf7; --ink:#16181c; --muted:#5c6069; --rule:#e3dfd7; --link:#2f5d7c; --card:#f3f1eb;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0f1114; --ink:#e9e6e0; --muted:#9aa0a8; --rule:#23262b; --link:#84b3d2; --card:#14171b;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0f1114; --ink:#e9e6e0; --muted:#9aa0a8; --rule:#23262b; --link:#84b3d2; --card:#14171b;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  font-size:19px; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:39rem; margin:0 auto; padding:3.5rem 1.25rem 5rem}
+h1{font-size:2.1rem; line-height:1.2; margin:0 0 1rem; font-weight:600; text-wrap:balance}
+h2{font-size:1.28rem; line-height:1.35; margin:3rem 0 1rem; font-weight:600; text-wrap:balance}
+p{margin:0 0 1.55rem; text-wrap:pretty}
+a{color:var(--link); text-decoration:underline; text-underline-offset:.16em}
+.lead{font-size:1.12rem}
+.facts{
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.9rem; line-height:1.6; background:var(--card); padding:1.3rem 1.4rem; margin:2.4rem 0;
+}
+footer{
+  border-top:1px solid var(--rule); margin-top:3.5rem; padding-top:1.4rem;
+  font-family:ui-sans-serif,system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:.86rem; line-height:1.8; color:var(--muted);
+}
+footer a{color:var(--link)}
+@media (max-width:34rem){
+  body{font-size:18px}
+  h1{font-size:1.72rem}
+}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  { "@type": "ListItem", "position": 1, "name": "Isaac Correa", "item": "https://isaac-correa.github.io/" },
+  { "@type": "ListItem", "position": 2, "name": "What changes a coding agent's behaviour", "item": "https://isaac-correa.github.io/coding-agents/" }
+ ]
+}
+</script>
+<!--blog--><link rel="stylesheet" href="/assets/blog.css"><!--/blog-->
+</head>
+<body>
+<div class="wrap">
+<header class="masthead"><a class="name" href="/">Isaac Correa</a><nav aria-label="Site"><a href="/archive/">Archive</a><a href="/about/">About</a><a href="https://isaac-correa.beehiiv.com/?modal=signup">Subscribe</a></nav></header>
+<p class="posted"><time datetime="2026-10-20">October 20, 2026</time></p>
+<h1>What changes a coding agent's behaviour</h1>
+
+<p class="lead">For eight months I worked almost entirely through Claude Code, at times with nine sessions running at once. I never trained as a programmer, and most of the software I use every day I built myself with it. Every message I wrote was still on disk, so I measured what actually changed how the agent behaved: the model, the rules I wrote for it, or the guards that block it when it breaks one.</p>
+
+<h2>What the record shows</h2>
+
+<p>These findings come from one person&#39;s record, with one tool and one vendor; the paper gives the intervals and the limits.</p>
+
+<p>A model release changed the agent&#39;s behaviour as much as my strongest combination of rule and guard. In the week Claude Opus 5.5 came out, 18% of its first drafts broke my writing rules. Claude Opus 5, under the same rules and on the same days, broke them in 57% of its first drafts, and the gap held inside the sessions that used both.</p>
+
+<p>For the one rule I could follow through three stages, writing it down was not enough. The share of drafts in the wrong language went from 16% with no rule to 10% with a written one, a fall that may be down to chance, and to 3% once I restated the rule more firmly and added a guard to check it.</p>
+
+<p>Guards filtered what reached me without improving what came after. The writing guard took about half of the violations out of the answers I read, but after a block the agent&#39;s next drafts in the same session were no cleaner.</p>
+
+<p>My own work changed shape. Corrections fell from about a third of my messages to under a tenth, and messages asking the agent to keep going rose from one in twenty to one in five. The models, my habits and my tasks all changed over those months, so this describes my work rather than isolating a cause. My own output also had a ceiling: with seven or more sessions open I wrote about 21 messages an hour, and the share spent on supervision did not depend on how many sessions were running.</p>
+
+<p>I also build applications in which you mainly work by talking to an agent with a defined job: an options terminal, an email client and a studio that writes blog posts. In each one, the screens and the agent read and write the same data. Those agents got more new work and less supervision from me than development sessions did, though the difference may be chance.</p>
+
+<h2>What it says about what I believed</h2>
+
+<p>In "<a href="/machine/">The machine of the future</a>" I wrote that as machines take over execution, a person&#39;s work moves to intention: deciding what is worth doing. The record is consistent with that. I spend less of my time fixing the agent&#39;s work and more of it keeping the work moving.</p>
+
+<p>In "<a href="/end-of-software/">The end of software</a>" I wrote that an agent should keep each correction as a rule. Here the record forces me to qualify what I wrote. For the rule I could follow, writing it down was not enough; it held once I restated it and a guard checked it every time, and the newer model broke my rules far less often than the older one.</p>
+
+<h2>The paper</h2>
+
+<p>The full study is a 31-page working paper: <a href="/what-changes-a-coding-agents-behaviour-isaac-correa.pdf">What changes a coding agent&#39;s behaviour: models, written rules and runtime guards over eight months of daily use of Claude Code</a> (PDF, October 2026, self-published, not peer reviewed). It covers 46,464 of my messages, 1.3 million messages from the agent and 3,411 recorded blocks, and it states its own limits: one operator, one tool and one vendor, and a classifier whose labels were checked by a second model but not yet by a person. The analysis scripts and the tables behind every figure are published with it. My messages are not, because they contain client work.</p>
+
+<p>Isaac Correa, Madrid. ORCID <a href="https://orcid.org/0009-0003-0657-4419">0009-0003-0657-4419</a>.</p>
+
+<p class="facts" style="font-family:ui-sans-serif,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-size:.9rem">Isaac Correa elsewhere: <a href="https://orcid.org/0009-0003-0657-4419">ORCID</a> · <a href="https://scholar.google.com/citations?user=afCVsBoAAAAJ">Google Scholar</a> · <a href="https://github.com/isaac-correa">GitHub</a> · <a href="https://x.com/isaac_correa_">X</a> · <a href="https://medium.com/@isaac.correa">Medium</a> · <a href="https://isaaccorrea1.substack.com">Substack</a> · <a href="https://hellomatik.com">Hellomatik</a>. The full list, with identifiers, is on <a href="/about/#elsewhere">the about page</a>.</p>
+
+<h2>Read more</h2>
+
+<p><a href="/machine/">The machine of the future</a>: what the next tool is, and what it will always need from us.<br>
+<a href="/end-of-software/">The end of software</a>: why code no longer matters and relationships are everything.<br>
+<a href="/method/">How we build a company&#39;s ontology</a>: the method, published with a DOI.<br>
+<a href="/cliff/">The cliff of innovation</a>: where building stops being the hard part.</p>
+
+<footer>
+  <p><a href="/">Isaac Correa</a> &middot; <a href="/story/">The story</a> &middot; <a href="/questions/">Questions</a> &middot; <a href="/writing/">Published elsewhere</a> &middot; <a href="/method/">The method</a> &middot; <a href="https://hellomatik.com">Hellomatik</a> &middot; <a href="/glossary/">Glossary</a></p>
+</footer>
+</div>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ScholarlyArticle",
+ "headline": "What changes a coding agent's behaviour",
+ "alternativeHeadline": "Models, written rules and runtime guards over eight months of daily use of Claude Code",
+ "description": "Isaac Correa's study of eight months of his own daily work with Claude Code: whether the model, the rules he wrote or the guards that block a broken rule changed how the agent behaved, and what his own supervision turned into.",
+ "url": "https://isaac-correa.github.io/coding-agents/",
+ "datePublished": "2026-10-20",
+ "dateModified": "2026-10-20",
+ "inLanguage": "en",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "author": { "@type": "Person", "@id": "https://isaac-correa.github.io/#isaac-correa", "name": "Isaac Correa", "url": "https://isaac-correa.github.io/" },
+ "publisher": { "@type": "Person", "name": "Isaac Correa" },
+ "encoding": { "@type": "MediaObject", "encodingFormat": "application/pdf", "contentUrl": "https://isaac-correa.github.io/what-changes-a-coding-agents-behaviour-isaac-correa.pdf" },
+ "citation": ["https://doi.org/10.5281/zenodo.22671771", "https://doi.org/10.5281/zenodo.23468806"],
+ "keywords": ["coding agents", "AI agent governance", "runtime guardrails", "instruction following", "human oversight", "agentic software engineering"],
+ "mainEntityOfPage": "https://isaac-correa.github.io/coding-agents/"
+}
+</script>
+<!--sidebar--><footer class="site-foot"><form class="search" action="/archive/" method="get" role="search"><label class="vh" for="q">Search every idea</label><input id="q" name="q" type="search" placeholder="Search every idea"></form><p class="sub"><a href="https://isaac-correa.beehiiv.com/?modal=signup">Get new ideas by email</a></p><p class="links"><a href="/archive/">Archive</a><a href="/about/">About</a><a href="/writing/">Elsewhere</a><a href="/feed.xml">Feed</a><a href="https://x.com/isaac_correa_">X</a><a href="https://orcid.org/0009-0003-0657-4419">ORCID</a></p><p class="place">Isaac Correa, Madrid. Co-founder of <a href="https://hellomatik.com">Hellomatik</a>.</p></footer><!--/sidebar-->
+</body>
+</html>

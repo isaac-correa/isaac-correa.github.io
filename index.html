@@ -30,6 +30,37 @@
 <main>
 <p class="intro">Isaac Correa, co-founder of <a href="https://hellomatik.com">Hellomatik</a>, in Madrid. Ideas on software, AI agents and building a company, newest first.</p>
 <article class="post">
+<p class="post-date"><a href="/coding-agents/"><time datetime="2026-10-20">October 20, 2026</time></a></p>
+<h2 class="post-title"><a href="/coding-agents/">What changes a coding agent's behaviour</a></h2>
+<div class="post-body">
+<p class="lead">For eight months I worked almost entirely through Claude Code, at times with nine sessions running at once. I never trained as a programmer, and most of the software I use every day I built that way. Every message I wrote was still on disk, so I measured what actually changed how the agent behaved: the model, the rules I wrote for it, or the guards that block it when it breaks one.</p>
+
+<h2>What the record shows</h2>
+
+<p>The model mattered more than my rules. In the week Claude Opus 5.5 came out, 18% of its first drafts broke my writing rules. Claude Opus 5, under the same rules and on the same days, broke them in 57%, and the gap held inside the sessions that used both.</p>
+
+<p>A written rule on its own did little. For the rule on which language to answer in, the share of drafts in the wrong language went from 16% with no rule to 10% with a written one, a fall that could be chance, and to 3% once the rule was reinforced and a guard checked it.</p>
+
+<p>Guards cleaned up what reached me, and the agent did not learn from them. The writing guard took about half of the violations out of the answers I read, but after a block the agent&rsquo;s next drafts in the same session were no cleaner.</p>
+
+<p>My own work changed shape. Corrections fell from about a third of my messages to under a tenth, and messages asking the agent to keep going rose from one in twenty to one in five. Opening more sessions did not change how much of my writing went to supervision, but from seven sessions upwards I wrote about 21 messages an hour however many I had open.</p>
+
+<p>I also build applications where an agent with its own role is the main way to work: an options terminal, an email client and a studio that writes blog posts, each with the screens and the agent working on the same data. Those agents got more new work and less supervision from me than development sessions did, though the difference could be chance.</p>
+
+<h2>What it says about what I believed</h2>
+
+<p>In <a href="/machine/">The machine of the future</a> I wrote that as machines take over execution, a person&rsquo;s work moves to intention: deciding what is worth doing. The record agrees. I spend less of my time fixing the agent&rsquo;s work and more of it directing it.</p>
+
+<p>In <a href="/end-of-software/">The end of software</a> I wrote that an agent should keep each correction as a rule. Here the record qualifies me. Writing the rule down was not enough; what made it hold was a guard that checks it every time, and a better model.</p>
+
+<h2>The paper</h2>
+
+<p>The full study is a 31-page working paper: <a href="/what-changes-a-coding-agents-behaviour-isaac-correa.pdf">What changes a coding agent&rsquo;s behaviour: models, written rules and runtime guards over eight months of daily use of Claude Code</a> (PDF, October 2026, self-published, not peer reviewed). It covers 46,464 of my messages, 1.3 million messages from the agent and 3,411 recorded blocks, and it states its own limits: one operator, one tool and one vendor, and a classifier whose labels a second model checked but no person has yet. The analysis scripts and the tables behind every figure are published with it. My messages are not, because they contain client work.</p>
+
+<p>Isaac Correa, Madrid. ORCID <a href="https://orcid.org/0009-0003-0657-4419">0009-0003-0657-4419</a>.</p>
+</div>
+</article>
+<article class="post">
 <p class="post-date"><a href="/end-of-software/"><time datetime="2026-10-19">October 19, 2026</time></a></p>
 <h2 class="post-title"><a href="/end-of-software/">The End of Software: Why Code No Longer Matters and Relationships Are Everything</a></h2>
 <div class="post-body">
@@ -428,54 +459,6 @@
 <p>The company is a matter of public record. Hellomatik was incorporated in Madrid on 28 July 2025. My appointment as joint administrator went into the Spanish commercial register and was published in the BORME on 4 August 2025, sheet M-861159, with the Agencia Estatal BOE as the source. That proves a company exists and when &mdash; nothing about whether any of the above works.</p>
 
 <p>Before it existed there were two months of screens, one panel at a time, each one kept only if I could say which decision it was there to support. The <a href="/product/">order I work in</a> is on another page.</p>
-</div>
-</article>
-<article class="post">
-<p class="post-date"><a href="/looker-studio/"><time datetime="2026-09-10">September 10, 2026</time></a></p>
-<h2 class="post-title"><a href="/looker-studio/">The Looker Studio years</a></h2>
-<div class="post-body">
-<p class="lead">The first thing anybody ever paid me for was an analytics dashboard, on the last day of 2022, on a freelance platform. Seven dollars. The two years that followed were Looker Studio, one commission at a time. This page is about the work itself rather than the arc it belongs to: what a job actually consisted of, what turned out to be the same in all of them, and what came out the other side.</p>
-
-<figure>
-  <picture><source srcset="/isaac-correa.webp" type="image/webp"><img src="/isaac-correa.jpg" width="969" height="1200" alt="Isaac Correa, co-founder of Hellomatik and Kodalogic, in Madrid" loading="lazy"></picture>
-  <figcaption>Isaac Correa in Madrid. The two years described here were worked from a desk, with the clients on four continents and the meetings in the afternoons.</figcaption>
-</figure>
-
-<h2>What a commission actually was</h2>
-
-<p>Somebody gives you access to their GA4 property, their Search Console, sometimes their Google Ads. They send a paragraph describing what they want. The paragraph almost never describes a chart. It describes a worry: they think they are paying too much for something, or they cannot tell which half of the traffic is worth anything, or a number went down last month and nobody in the company can say why.</p>
-
-<p>The job is to turn that worry into something a screen can answer, and then to build the screen. The building is the short part. Most of the time went into reading the paragraph correctly, and when I got that wrong the report was opened once and never again.</p>
-
-<p>Some of those clients were one person with a shop. Some were companies of considerable size with a marketing team and an agency already in place. The worry arrived in much the same form from both.</p>
-
-<h2>What repeated</h2>
-
-<p>By the end there were three hundred of these, for clients in the United States, across Europe, in South America and in Korea. I was studying at the same time, so the meetings went in the afternoons and the deliveries went out in hours.</p>
-
-<p>Three hundred businesses, and the questions their data got asked came down to a handful: which channels bring the visits, what those visits cost, which of them turn into something, and what moved since last month. The dashboards looked different from each other because the businesses did. Underneath, they were answering the same four things.</p>
-
-<p>Every single one of those three hundred started from an empty canvas. That is what Looker Studio gives you, and for a tool it is the right default. It also meant rebuilding the same skeleton three hundred times before getting to the part that was actually about that client.</p>
-
-<h2>The reviews</h2>
-
-<p>A hundred and three clients left a verified review, and they are published in full on <a href="https://kodalogic.com/reviews">Kodalogic&rsquo;s reviews page</a> rather than summarised here. A delivery count only records that I turned up. The reviews are the part I did not write.</p>
-
-<h2>Kodalogic, September 2024</h2>
-
-<p>Kodalogic exists because of that. I founded it in Madrid in September 2024, so that the skeleton would only have to be built once.</p>
-
-<p><a href="https://kodalogic.com/templates">The catalogue</a> is six finished dashboards rather than three hundred, and it took the three hundred to see why. Six covers GA4, Search Console and Google Ads, which is where the questions above actually live. Anything past that is a variation on one of the six, and a client who needs one can make it in an afternoon from a dashboard that already works, which is not true of an empty canvas.</p>
-
-<p>The other half of the decision was the interpretation. Each chart in those dashboards has the reading written next to it, in words, saying what it means when the line does what it is doing. Without that, somebody who knows the tool has to be standing next to the client for the chart to be worth anything, and nobody is paying for that person to be on call.</p>
-
-<h2>The fifty-eight posts</h2>
-
-<p>Kodalogic sells through search results, so I wrote fifty-eight posts on Looker Studio reporting for <a href="https://kodalogic.com/blogs">its blog</a>, all signed and all still up. Not pieces about the company: the actual answers to the questions people were typing into Google, written out in full.</p>
-
-<h2>What was underneath</h2>
-
-<p>By the three hundredth dashboard the pattern was hard to miss, and it was not about reports. In almost every business I worked with, the data, the rules and the decisions had never been written down anywhere; they lived in people&rsquo;s heads and in the habits of whoever had been there longest. Every tool that arrived had to be told the same things from scratch, and every dashboard was a fresh attempt to reconstruct them. That layer is what <a href="/companies/">the company I run now</a> works on.</p>
 </div>
 </article>
 </main>
@@ -961,6 +944,12 @@
   "name": "Isaac Correa"
  },
  "blogPost": [
+  {
+   "@type": "BlogPosting",
+   "headline": "What changes a coding agent's behaviour",
+   "url": "https://isaac-correa.github.io/coding-agents/",
+   "datePublished": "2026-10-20"
+  },
   {
    "@type": "BlogPosting",
    "headline": "The End of Software: Why Code No Longer Matters and Relationships Are Everything",
