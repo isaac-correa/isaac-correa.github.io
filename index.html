@@ -33,29 +33,39 @@
 <p class="post-date"><a href="/coding-agents/"><time datetime="2026-10-20">October 20, 2026</time></a></p>
 <h2 class="post-title"><a href="/coding-agents/">What changes a coding agent's behaviour</a></h2>
 <div class="post-body">
-<p class="lead">For eight months I worked almost entirely through Claude Code, at times with nine sessions running at once. I never trained as a programmer, and most of the software I use every day I built that way. Every message I wrote was still on disk, so I measured what actually changed how the agent behaved: the model, the rules I wrote for it, or the guards that block it when it breaks one.</p>
+<p class="lead">For eight months I worked almost entirely through Claude Code, at times with nine sessions running at once. I never trained as a programmer, and most of the software I use every day I built myself with it. Every message I wrote was still on disk, so I measured what actually changed how the agent behaved: the model, the rules I wrote for it, or the guards that block it when it breaks one.</p>
 
 <h2>What the record shows</h2>
 
-<p>The model mattered more than my rules. In the week Claude Opus 5.5 came out, 18% of its first drafts broke my writing rules. Claude Opus 5, under the same rules and on the same days, broke them in 57%, and the gap held inside the sessions that used both.</p>
+<p>These findings come from one person&#39;s record, with one tool and one vendor; the paper gives the intervals and the limits.</p>
 
-<p>A written rule on its own did little. For the rule on which language to answer in, the share of drafts in the wrong language went from 16% with no rule to 10% with a written one, a fall that could be chance, and to 3% once the rule was reinforced and a guard checked it.</p>
+<p>A model release changed the agent&#39;s behaviour as much as my strongest combination of rule and guard. In the week Claude Opus 5.5 came out, 18% of its first drafts broke my writing rules. Claude Opus 5, under the same rules and on the same days, broke them in 57% of its first drafts, and the gap held inside the sessions that used both.</p>
 
-<p>Guards cleaned up what reached me, and the agent did not learn from them. The writing guard took about half of the violations out of the answers I read, but after a block the agent&rsquo;s next drafts in the same session were no cleaner.</p>
+<p>For the one rule I could follow through three stages, writing it down was not enough. The share of drafts in the wrong language went from 16% with no rule to 10% with a written one, a fall that may be down to chance, and to 3% once I restated the rule more firmly and added a guard to check it.</p>
 
-<p>My own work changed shape. Corrections fell from about a third of my messages to under a tenth, and messages asking the agent to keep going rose from one in twenty to one in five. Opening more sessions did not change how much of my writing went to supervision, but from seven sessions upwards I wrote about 21 messages an hour however many I had open.</p>
+<p>Guards filtered what reached me without improving what came after. The writing guard took about half of the violations out of the answers I read, but after a block the agent&#39;s next drafts in the same session were no cleaner.</p>
 
-<p>I also build applications where an agent with its own role is the main way to work: an options terminal, an email client and a studio that writes blog posts, each with the screens and the agent working on the same data. Those agents got more new work and less supervision from me than development sessions did, though the difference could be chance.</p>
+<p>My own work changed shape. Corrections fell from about a third of my messages to under a tenth, and messages asking the agent to keep going rose from one in twenty to one in five. The models, my habits and my tasks all changed over those months, so this describes my work rather than isolating a cause. My own output also had a ceiling: with seven or more sessions open I wrote about 21 messages an hour, and the share spent on supervision did not depend on how many sessions were running.</p>
+
+<p>I also build applications in which you mainly work by talking to an agent with a defined job: an options terminal, an email client and a studio that writes blog posts. In each one, the screens and the agent read and write the same data. Those agents got more new work and less supervision from me than development sessions did, though the difference may be chance.</p>
 
 <h2>What it says about what I believed</h2>
 
-<p>In <a href="/machine/">The machine of the future</a> I wrote that as machines take over execution, a person&rsquo;s work moves to intention: deciding what is worth doing. The record agrees. I spend less of my time fixing the agent&rsquo;s work and more of it directing it.</p>
+<p>In "<a href="/machine/">The machine of the future</a>" I wrote that as machines take over execution, a person&#39;s work moves to intention: deciding what is worth doing. The record is consistent with that. I spend less of my time fixing the agent&#39;s work and more of it keeping the work moving.</p>
 
-<p>In <a href="/end-of-software/">The end of software</a> I wrote that an agent should keep each correction as a rule. Here the record qualifies me. Writing the rule down was not enough; what made it hold was a guard that checks it every time, and a better model.</p>
+<p>In "<a href="/end-of-software/">The end of software</a>" I wrote that an agent should keep each correction as a rule. Here the record forces me to qualify what I wrote. For the rule I could follow, writing it down was not enough; it held once I restated it and a guard checked it every time, and the newer model broke my rules far less often than the older one.</p>
+
+<h2>Abstract</h2>
+
+<p>Companies govern coding agents with written instructions and, increasingly, with hooks that block an action when it breaks a rule. This study measures what changed the behaviour of Claude Code over eight months of daily use by one operator with no training in programming who directed many sessions at once, using 46,464 operator messages, 1.3 million agent messages and 3,411 recorded blocks. A fixed instrument applied the rules of one guard to every surviving answer, including those written before the guard existed. In the week Claude Opus 5.5 was released, it broke the operator's writing rules in 18% of first drafts and Claude Opus 5 in 57%, a gap that held within the same long-running sessions. For one language rule, a written instruction was followed by a fall that could not be distinguished from chance, and a reinforced rule with a guard by a fall to a sixth of the starting rate. Blocks roughly halved the violations that reached the operator, with no detectable effect on later drafts in the same session. Supervision accounted for a third to a half of the operator's messages throughout, while its content shifted from corrections to nudges to keep working. Agents built into the operator's own applications, each with a defined role and sharing its data with the application's interface, received more new work and less supervision than development sessions, a difference within chance.</p>
+
+<p>Keywords: coding agents; AI agent governance; runtime guardrails; instruction following; human oversight; agentic software engineering.</p>
 
 <h2>The paper</h2>
 
-<p>The full study is a 31-page working paper: <a href="/what-changes-a-coding-agents-behaviour-isaac-correa.pdf">What changes a coding agent&rsquo;s behaviour: models, written rules and runtime guards over eight months of daily use of Claude Code</a> (PDF, October 2026, self-published, not peer reviewed). It covers 46,464 of my messages, 1.3 million messages from the agent and 3,411 recorded blocks, and it states its own limits: one operator, one tool and one vendor, and a classifier whose labels a second model checked but no person has yet. The analysis scripts and the tables behind every figure are published with it. My messages are not, because they contain client work.</p>
+<p>The full study is a 32-page working paper: <a href="/what-changes-a-coding-agents-behaviour-isaac-correa.pdf">What changes a coding agent&#39;s behaviour: models, written rules and runtime guards over eight months of daily use of Claude Code</a> (PDF, October 2026, self-published, not peer reviewed). It covers 46,464 of my messages, 1.3 million messages from the agent and 3,411 recorded blocks, and it states its own limits: one operator, one tool and one vendor, and a classifier whose labels were checked by a second model and validated by me. The analysis scripts and the tables behind every figure are published with it on Zenodo. My messages are not, because they contain client work.</p>
+
+<p>It is deposited on Zenodo with a DOI, <a href="https://doi.org/10.5281/zenodo.23510601">10.5281/zenodo.23510601</a>, so the file will still resolve when this site does not. To cite it: Correa, I. (2026). What changes a coding agent&#39;s behaviour: models, written rules and runtime guards over eight months of daily use of Claude Code. Working paper, Zenodo. https://doi.org/10.5281/zenodo.23510601</p>
 
 <p>Isaac Correa, Madrid. ORCID <a href="https://orcid.org/0009-0003-0657-4419">0009-0003-0657-4419</a>.</p>
 </div>
