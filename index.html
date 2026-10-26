@@ -30,6 +30,20 @@
 <main>
 <p class="intro">Isaac Correa, co-founder of <a href="https://hellomatik.com">Hellomatik</a>, in Madrid. Ideas on software, AI agents and building a company, newest first.</p>
 <article class="post">
+<p class="post-date"><a href="/higher-self/"><time datetime="2026-10-26">October 26, 2026</time></a></p>
+<h2 class="post-title"><a href="/higher-self/">The higher self</a></h2>
+<div class="post-body">
+<p class="hs-dek">If you teach an AI agent to work the way you do, have you built your replacement or your best tool? Why that copy should belong to you.</p>
+<div class="hs-meta"><span><strong>Isaac Correa</strong></span><span>21 min read</span><span><a href="/the-higher-self-isaac-correa.pdf">PDF</a></span></div>
+<article>
+<p>I have taught a machine almost everything I know how to do at work. I taught it by correcting it, one rule at a time, such as the rule that, whenever I offer a client two dates, both are held in my calendar until they reply. Today it works in a way I recognise as mine, and I don't know whether I have built my replacement or the best tool I have ever had.</p>
+<p>Something like this happened once before. More than a century ago, Frederick Taylor needed stopwatches and engineers to get workers' knowledge of their trade out of their heads, and that knowledge, which he himself called the principal asset of every tradesman, became the company's. Now I hand mine over of my own accord, and so does anyone who corrects an AI agent.</p>
+<p>I think it can end differently this time. The machine can learn every rule I teach it, but only I can see the next one it needs. And if that copy of me is mine, it works for me and keeps what I have taught it, including what I have since forgotten. I believe every person should own theirs and be able to take it with them when they change jobs.</p>
+<p>My company, Hellomatik, builds agents for other companies, and I delegate almost all of my own work to our agents, so I am not a neutral observer. Nor can I know what work will look like in ten years; nobody can, and much of what follows is a bet, though one placed on what I measure every day.</p>
+<p class="more"><a href="/higher-self/">Continue reading</a></p>
+</div>
+</article>
+<article class="post">
 <p class="post-date"><a href="/coding-agents/"><time datetime="2026-10-20">October 20, 2026</time></a></p>
 <h2 class="post-title"><a href="/coding-agents/">What changes a coding agent's behaviour</a></h2>
 <div class="post-body">
@@ -399,80 +413,8 @@
 <p>Isaac Correa, Madrid. ORCID <a href="https://orcid.org/0009-0003-0657-4419">0009-0003-0657-4419</a>.</p>
 </div>
 </article>
-<article class="post">
-<p class="post-date"><a href="/how-hellomatik-started/"><time datetime="2026-09-10">September 10, 2026</time></a></p>
-<h2 class="post-title"><a href="/how-hellomatik-started/">How Hellomatik started</a></h2>
-<div class="post-body">
-<p class="lead">The first version of the idea was a system that answered restaurant phone calls. What it turned into was a way of writing down how a company decides. This page is the route between those two things, in the order it happened.</p>
-
-<figure>
-  <picture><source srcset="/isaac-correa-madrid.webp" type="image/webp"><img src="/isaac-correa-madrid.jpg" width="1200" height="1091" alt="Isaac Correa, co-founder of Hellomatik, in Madrid" loading="lazy"></picture>
-  <figcaption>Isaac Correa in Madrid. Hellomatik was incorporated on 28 July 2025; the two months of screens described here came before it.</figcaption>
-</figure>
-
-<h2>A voice</h2>
-
-<p>I had spent <a href="/looker-studio/">two years building Looker Studio dashboards</a> for other people&rsquo;s businesses. A dashboard shows numbers and leaves the reading to whoever opens it. The next thing to try was letting someone ask instead of read, and restaurants were the first case, because a restaurant&rsquo;s phone rings all day with questions that have exact answers and nobody in the building is free to pick it up.</p>
-
-<p>What you get from that is a voice on top of a database. It repeats what is in the record accurately. Ask it something the record does not contain &mdash; whether the kitchen serves late on a public holiday, whether a dish has nuts in it &mdash; and it produces a plausible answer in the same even tone it uses for the things it does know.</p>
-
-<p>I shipped it before I had any way of telling its right answers from its wrong ones, which is a bad order to do things in and the reason the rest of this page exists.</p>
-
-<h2>The cheap fixes, and where they stop</h2>
-
-<p>There are two well-known answers to that. Let the system look things up instead of recalling them, so the answer comes from the record rather than the model. And let it say it does not know instead of filling the gap. I used both. They reduce how often it invents, and they are worth doing, but neither one decides anything.</p>
-
-<p>The first thing they do not decide is which record. A business with a booking system, a point of sale and a spreadsheet has three answers to &ldquo;is that table free&rdquo;, and they disagree. Looking it up is only a procedure once somebody has decided, in writing, which of the three is believed about that particular field, and in the businesses I sat with that decision was not the same for every field.</p>
-
-<p>The second is that a good part of what the phone gets asked is not in any record at all. Can this table be held for twenty minutes without a card. Can that customer order again with an invoice still unpaid. Can the party of twelve book on a Friday. Those have exact answers, the business applies them consistently, and they are not written anywhere &mdash; they are conditions somebody decided once and everyone learned. Looking them up is not possible, because there is nothing to look up.</p>
-
-<p>None of this is new. Deciding which system is authoritative for which data is an old discipline with its own literature, its own vendors and its own well-documented ways of failing: master data management, data governance, more recently data contracts. Those programmes have driven system-to-system integration for years, not only human reporting, so the machine-readable part is not the new bit either. What was different in my case was the size of company. That work is normally bought by organisations large enough to run a programme around it, and in the small and mid-size businesses I sat with the same decisions existed nowhere at all &mdash; not in a tool, not in a document. They were held by whoever had been there longest.</p>
-
-<h2>A brain</h2>
-
-<p>So before the software there is a document: which system is authoritative for each thing, what conditions the business already applies, which <a href="/glossary/">exceptions</a> are live and when they expire, and who may approve what. Not a summary of the business, but the specific decisions it makes without noticing it is making them.</p>
-
-<p>One piece of it &mdash; two departments settling what they each mean by &ldquo;customer&rdquo; &mdash; takes an afternoon in a room, and in my experience it does not end with a clean answer. Both definitions are usually right about their own department.</p>
-
-<p>A company has hundreds of terms like that, so the honest version is that the document is never finished. What the first weeks produce is not the whole company written down: it is the part needed by whatever is being automated first, which is a much smaller thing and is the only reason the work is startable at all. The rest stays where it was, and gets written when something needs to act on it. Anyone who tells you the whole map takes a few weeks is quoting the afternoon and hoping you multiply badly.</p>
-
-<p>That cost falls on the company rather than on me: it puts people in a meeting arguing about something they had been quietly disagreeing about for years, and the count of live exceptions comes out higher than expected. It also does not settle who is allowed to change the rule once it is written, which is the failure mode the older discipline is full of and which I do not consider solved.</p>
-
-<h2>Hands</h2>
-
-<p>Answering correctly and being allowed to act are separate problems, and the second one is the reason the document has to exist rather than be a good habit.</p>
-
-<p>A system that answers can be wrong and cost somebody a morning. A system that sends the quote, releases the order or raises the credit hold can be wrong in a way that cannot be taken back. So before software is allowed to act, somebody has to have written down what it may do, <a href="/actions/">which of those things can be undone</a>, and who has to approve the rest. That list is part of the same few weeks, and in my experience it is the part people have thought about least before starting.</p>
-
-<p>It also decides where the limit lives. A limit written into a prompt is a request to the model. A limit written as data is not self-enforcing either &mdash; something still has to check the row before acting, and that check is code somebody has to write. What changes is that the limit can be read by someone who did not write the prompt, audited after the fact, and changed without redeploying.</p>
-
-<h2>What the document turned out to be</h2>
-
-<p>By this point the document had four parts. I did not arrive at them by design; each is what was left over from a problem further up this page, and I am laying them out in that order so the derivation can be checked rather than taken.</p>
-
-<p>The voice needed to know which system is believed about each thing, so the first part is the data: what exists in the business, and which record is authoritative for each field of it. The questions with no record behind them &mdash; the twenty-minute hold, the party of twelve, the customer with an invoice outstanding &mdash; needed the conditions the business already applies, written down with their exceptions and the dates those stop being true, so the second part is the rules. Letting it act needed the list of what it may actually do and which of those things can be undone, so the third part is the actions. And because some of those cannot be undone, the fourth part is who may approve what.</p>
-
-<p>Data, rules, actions, permissions. The word for that is ontology, used the way information systems have used it for decades rather than the way philosophy does &mdash; I <a href="/glossary/">define it, and what it is not, on another page</a>. It is an unfashionable term and I keep it because the alternatives mislead: &ldquo;knowledge base&rdquo; suggests pages for a human to read, and &ldquo;configuration&rdquo; suggests settings for a program that already exists. This is neither. It is a company stating its own decisions in a form that something other than a person can act on.</p>
-
-<p>The version I ended up with is written out in full in the report, called &ldquo;How we build a company&rsquo;s ontology&rdquo;. What it mostly contains is the order to ask things in and the mistakes that make you redo the first week.</p>
-
-<h2>What it looks like at production size</h2>
-
-<p>The method is published in full as a <a href="/method/">technical report with a DOI</a>. It declares its limits, and the figures there are the closest thing to a size on this page. Four systems in production at the time of writing; the report describes two of them in any detail. One is B2B, recalculating 29,000 customers every night over 14 million sales lines. The other is logistics: 24 rules applied against live ERP and warehouse data, across 30 million operations and 460,000 locations.</p>
-
-<p>Those are counts of what the systems run over, not of what they improved, and the report is my own deposit rather than an audit by anyone else. So they are a description of size and nothing more.</p>
-
-<h2>The checkable part</h2>
-
-<p>Very little of what I have written above can be verified from outside. Hellomatik&rsquo;s first client was a large clinic, and I am not naming it or its city, so that is not a case study and I am not going to present it as one &mdash; it is a fact about my working life that you would have to take on trust, which is the same footing as most of this page. The report is deposited with a <a href="https://doi.org/10.5281/zenodo.22647735">DOI</a>, which is an address rather than a review: it fixes the argument in one place with a date on it so it can be disagreed with in detail.</p>
-
-<p>The company is a matter of public record. Hellomatik was incorporated in Madrid on 28 July 2025. My appointment as joint administrator went into the Spanish commercial register and was published in the BORME on 4 August 2025, sheet M-861159, with the Agencia Estatal BOE as the source. That proves a company exists and when &mdash; nothing about whether any of the above works.</p>
-
-<p>Before it existed there were two months of screens, one panel at a time, each one kept only if I could say which decision it was there to support. The <a href="/product/">order I work in</a> is on another page.</p>
-</div>
-</article>
 </main>
-<nav class="pagination" aria-label="Pages"><span class="current" aria-current="page">1</span><a href="/page/2/">2</a><a href="/page/2/">Older</a></nav>
+<nav class="pagination" aria-label="Pages"><span class="current" aria-current="page">1</span><a href="/page/2/">2</a><a href="/page/3/">3</a><a href="/page/2/">Older</a></nav>
 </div>
 <!--sidebar--><footer class="site-foot"><form class="search" action="/archive/" method="get" role="search"><label class="vh" for="q">Search every idea</label><input id="q" name="q" type="search" placeholder="Search every idea"></form><p class="sub"><a href="https://isaac-correa.beehiiv.com/?modal=signup">Get new ideas by email</a></p><p class="links"><a href="/archive/">Archive</a><a href="/about/">About</a><a href="/writing/">Elsewhere</a><a href="/feed.xml">Feed</a><a href="https://x.com/isaac_correa_">X</a><a href="https://orcid.org/0009-0003-0657-4419">ORCID</a></p><p class="place">Isaac Correa, Madrid. Co-founder of <a href="https://hellomatik.com">Hellomatik</a>.</p></footer><!--/sidebar-->
 <script type="application/ld+json">
@@ -954,6 +896,12 @@
   "name": "Isaac Correa"
  },
  "blogPost": [
+  {
+   "@type": "BlogPosting",
+   "headline": "The higher self",
+   "url": "https://isaac-correa.github.io/higher-self/",
+   "datePublished": "2026-10-26"
+  },
   {
    "@type": "BlogPosting",
    "headline": "What changes a coding agent's behaviour",

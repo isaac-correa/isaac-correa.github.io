@@ -5,7 +5,7 @@
   <link href="https://isaac-correa.github.io/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://isaac-correa.github.io/" rel="alternate" type="text/html"/>
   <id>https://isaac-correa.github.io/</id>
-  <updated>2026-10-20T20:00:00Z</updated>
+  <updated>2026-10-26T12:00:00Z</updated>
   <author><name>Isaac Correa</name><uri>https://isaac-correa.github.io/</uri></author>
   <rights>Free to quote with attribution to Isaac Correa.</rights>
   <entry>
@@ -31,6 +31,14 @@
     <updated>2026-09-11T13:00:00Z</updated>
     <author><name>Isaac Correa</name><uri>https://isaac-correa.github.io/</uri></author>
     <summary type="text">Isaac Correa's four dated predictions, all due in 2028, each with where it was published and how anyone can check it.</summary>
+  </entry>
+<entry>
+    <title>The higher self</title>
+    <link href="https://isaac-correa.github.io/higher-self/" rel="alternate" type="text/html"/>
+    <id>https://isaac-correa.github.io/higher-self/</id>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <author><name>Isaac Correa</name><uri>https://isaac-correa.github.io/</uri></author>
+    <summary type="text">Isaac Correa's essay, October 2026: teaching an AI agent your way of working builds a copy of you. Whether it replaces you or works for you depends on who owns it.</summary>
   </entry>
 <entry>
     <title>What changes a coding agent's behaviour</title>
