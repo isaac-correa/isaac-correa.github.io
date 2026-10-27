@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Speeding up the past, or inventing the present &#8212; Isaac Correa</title>
+<meta name="description" content="Most people use AI to do the same work faster. Isaac Correa argues the real change is the work that was never worth doing, and explains why even people who started out with AI miss it.">
+<link rel="canonical" href="https://isaac-correa.github.io/speeding-up-the-past/">
+<link rel="alternate" type="application/atom+xml" title="Isaac Correa" href="/feed.xml">
+<link rel="preload" href="/assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/hedvig-letters-serif.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="citation_title" content="Speeding up the past, or inventing the present">
+<meta name="citation_author" content="Correa, Isaac">
+<meta name="citation_publication_date" content="2026/10/27">
+<meta name="citation_pdf_url" content="https://isaac-correa.github.io/speeding-up-the-past-isaac-correa.pdf">
+<meta name="citation_abstract_html_url" content="https://isaac-correa.github.io/speeding-up-the-past/">
+<meta name="citation_language" content="en">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Speeding up the past, or inventing the present &#8212; Isaac Correa">
+<meta property="og:description" content="Most people use AI to do the same work faster. Isaac Correa argues the real change is the work that was never worth doing, and explains why even people who started out with AI miss it.">
+<meta property="og:url" content="https://isaac-correa.github.io/speeding-up-the-past/">
+<meta property="og:image" content="https://isaac-correa.github.io/og/card-speeding-up-the-past.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Speeding up the past, or inventing the present, an essay by Isaac Correa">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://isaac-correa.github.io/og/card-speeding-up-the-past.jpg">
+<style>
+@font-face{font-family:"Hedvig Letters Serif";src:url("/assets/fonts/hedvig-letters-serif.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Inter";src:url("/assets/fonts/inter.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Inter";src:url("/assets/fonts/inter-italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap}
+:root{
+  --hs-paper:#fbfaf7; --hs-ink:#15171b; --hs-text:#2a2d32; --hs-muted:#4f535a; --hs-rule:#e2ded6;
+  --hs-link:#284f6a; --hs-mark:#284f6a;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --hs-paper:#0f1114; --hs-ink:#eeebe5; --hs-text:#d5d2cc; --hs-muted:#9ba1a9; --hs-rule:#272b31;
+    --hs-link:#8cbbd9; --hs-mark:#8cbbd9;
+  }
+}
+:root[data-theme="dark"]{
+  --hs-paper:#0f1114; --hs-ink:#eeebe5; --hs-text:#d5d2cc; --hs-muted:#9ba1a9; --hs-rule:#272b31;
+  --hs-link:#8cbbd9; --hs-mark:#8cbbd9;
+}
+html{background:var(--hs-paper)}
+body{background:var(--hs-paper)}
+.hs .wrap{max-width:40rem}
+.hs .wrap article{font-family:"Inter",ui-sans-serif,system-ui,sans-serif; font-size:1.075rem; line-height:1.72;
+  color:var(--hs-text); font-feature-settings:"kern","liga","calt"; letter-spacing:-.004em}
+.hs .wrap .hs-kicker{font-family:"Inter",ui-sans-serif,system-ui,sans-serif; font-size:.78rem; font-weight:600;
+  letter-spacing:.09em; text-transform:uppercase; color:var(--hs-muted); margin:0 0 1.1rem}
+.hs .wrap h1{font-family:"Hedvig Letters Serif",Georgia,serif; font-weight:400; font-size:clamp(2.6rem,7vw,3.6rem);
+  line-height:1.04; letter-spacing:-.02em; color:var(--hs-ink); margin:0 0 1.2rem; text-wrap:balance}
+.hs .wrap .hs-dek{font-family:"Hedvig Letters Serif",Georgia,serif; font-size:1.32rem; line-height:1.42;
+  color:var(--hs-muted); margin:0 0 1.6rem; text-wrap:pretty}
+.hs .wrap .hs-meta{display:flex; flex-wrap:wrap; gap:.35rem 1.1rem; font-family:"Inter",ui-sans-serif,system-ui,sans-serif;
+  font-size:.86rem; color:var(--hs-muted); padding:0 0 1.7rem; margin:0 0 2.4rem; border-bottom:1px solid var(--hs-rule)}
+.hs .wrap .hs-meta a{color:var(--hs-muted)}
+.hs .wrap .hs-meta strong{color:var(--hs-ink); font-weight:600}
+.hs .wrap article p{margin:0 0 1.35rem; text-wrap:pretty; hyphens:manual}
+.hs .wrap article h2{font-family:"Hedvig Letters Serif",Georgia,serif; font-weight:400; font-size:1.75rem;
+  line-height:1.2; letter-spacing:-.01em; color:var(--hs-ink); margin:3.2rem 0 1.1rem; text-wrap:balance}
+.hs .wrap article ul.hs-portrait{list-style:none; padding:0; margin:1.8rem 0 2rem; display:grid; gap:1rem}
+.hs .wrap article ul.hs-portrait li{font-family:"Hedvig Letters Serif",Georgia,serif; font-size:1.24rem; line-height:1.45;
+  color:var(--hs-ink); padding:0 0 0 1.4rem; text-indent:-.45em; margin:0}
+.hs .wrap article a{color:var(--hs-link); text-decoration-thickness:1px; text-underline-offset:.18em}
+.hs .wrap sup{line-height:0; font-size:.68em; font-weight:600; font-feature-settings:"tnum"; margin-left:.05em}
+.hs .wrap sup a{text-decoration:none; padding:0 .1em}
+.hs .wrap sup a:focus-visible, .hs .wrap .hs-notes a:focus-visible{outline:2px solid var(--hs-link); outline-offset:2px; border-radius:2px}
+.hs .wrap .hs-rule{border:0; border-top:1px solid var(--hs-rule); margin:3.4rem 0 2rem}
+.hs .wrap .hs-notes h2{font-size:1.25rem; margin:0 0 1.2rem}
+.hs .wrap .hs-notes ol{list-style:none; padding:0; margin:0; display:grid; gap:.8rem}
+.hs .wrap .hs-notes li{display:grid; grid-template-columns:2.1rem 1fr; font-size:.9rem; line-height:1.6; color:var(--hs-text); margin:0}
+.hs .wrap .hs-notes li > span{font-feature-settings:"tnum"; color:var(--hs-muted); font-weight:600}
+.hs .wrap .hs-notes li:target{background:color-mix(in srgb, var(--hs-mark) 9%, transparent); border-radius:4px}
+.hs .wrap .hs-notes .hs-back{margin-left:.35rem; color:var(--hs-link); text-decoration:underline; text-underline-offset:.2em}
+.hs .wrap .posted, .hs .masthead nav a, .hs footer, .hs footer a{color:var(--hs-muted)}
+.hs footer a{text-decoration:underline}
+.hs .site-foot .sub a{color:var(--hs-link)}
+.hs .wrap .hs-earlier, .hs .wrap .hs-cite{font-size:.9rem; color:var(--hs-muted); margin:1.6rem 0 0}
+.hs .wrap .hs-cite code{font-family:"Inter",ui-sans-serif,system-ui,sans-serif; font-size:inherit; background:none}
+@media (max-width:30rem){
+  .hs .wrap article{font-size:1.02rem; line-height:1.68}
+  .hs .wrap .hs-dek{font-size:1.16rem}
+  .hs .wrap article h2{font-size:1.5rem; margin-top:2.6rem}
+  .hs .wrap .hs-notes li{grid-template-columns:1.7rem 1fr}
+}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Speeding up the past, or inventing the present",
+ "description": "Most people use AI to do the same work faster. Isaac Correa argues the real change is the work that was never worth doing, and explains why even people who started out with AI miss it.",
+ "url": "https://isaac-correa.github.io/speeding-up-the-past/",
+ "datePublished": "2026-10-27",
+ "dateModified": "2026-10-27",
+ "inLanguage": "en",
+ "image": ["https://isaac-correa.github.io/og/card-speeding-up-the-past.jpg"],
+ "author": { "@type": "Person", "@id": "https://isaac-correa.github.io/#isaac-correa", "name": "Isaac Correa", "url": "https://isaac-correa.github.io/" },
+ "publisher": { "@type": "Person", "name": "Isaac Correa" },
+ "mainEntityOfPage": "https://isaac-correa.github.io/speeding-up-the-past/"
+}
+</script>
+<!--blog--><link rel="stylesheet" href="/assets/blog.css"><!--/blog-->
+</head>
+<body class="hs">
+<div class="wrap">
+<header class="masthead"><a class="name" href="/">Isaac Correa</a><nav aria-label="Site"><a href="/archive/">Archive</a><a href="/about/">About</a><a href="https://isaac-correa.beehiiv.com/?modal=signup">Subscribe</a></nav></header>
+<main>
+<p class="posted"><time datetime="2026-10-27">October 27, 2026</time></p>
+<h1>Speeding up the past, or inventing the present</h1>
+<p class="hs-dek">Most of what AI makes possible was never slow work. It was work nobody thought worth doing, so nobody missed it.</p>
+<div class="hs-meta"><span><strong>Isaac Correa</strong></span><span>5 min read</span><span><a href="/speeding-up-the-past-isaac-correa.pdf">PDF</a></span></div>
+<article>
+<p>I have never worked without AI, and yet for months I used it like someone who had spent twenty years working without it. I landed my first client a month after ChatGPT came out, at the end of 2022, while I was still studying marketing in Madrid. I had the newest tool there was, and I used it to do the same old things faster.</p>
+<p>It took me a while to understand why, but it seems to me that almost everyone now uses AI to speed up the past, to do what was already being done, only faster, and very few use it to invent the present. And what AI lets you invent was almost never slow work. It simply wasn't worth doing, which is why nobody missed it.</p>
+<h2 id="a-past-that-wasn-t-mine">A past that wasn't mine</h2>
+<p>Early 2023 brought ChatGPT Plus, which couldn't even search the web: if you wanted to work on a page, you had to paste the text in. I remember, with some amusement, that hardly anyone around me believed in it, while I spent so many hours with it that a classmate started calling me IsaacGPT. When I started working with clients I used it for everything, and for months I used it to build the same conventional solutions anyone would have built without AI, just faster.</p>
+<p>So why did I do that, when I had no old habits to cling to? Because that past wasn't mine; it belonged to my profession. I have always believed that you learn by copying, the way you learn to paint by watching others paint. What I hadn't seen is that anyone who learns that way also inherits everything the people they copy never painted. Every profession comes with its list of tasks, and whatever isn't on the list never even comes up. With a new tool in hand, the instinct is to run through the same list faster, and the gap only shows once you stop copying the list and ask what is missing from it.</p>
+<h2 id="what-was-never-worth-it">What was never worth it</h2>
+<p>I can't code, yet I've built most of the apps I use every day myself. I used to pay for a subscription to each of the apps they replaced and make do with software built for everyone, with hundreds of features I never touched. Nobody was going to build software for one person, because it wasn't worth it. Now I build it myself.</p>
+<p>The same goes for companies. At the end of each month we send every client a report on how our work for them went. Preparing them all used to take one person the last ten days of the month; now they're automated, and she spends that time on other work. That is speeding up the past, and it's a good first step. But what the client needs is to find out what is happening while it can still be fixed, not thirty days later, and keeping a daily eye on every client never used to pay for itself.</p>
+<p>More interesting still, a lot of routine work used to be sold as a separate service, because it took someone hours. Once it no longer takes those hours, what used to be a product becomes one feature of something much bigger, and what you end up selling is whatever no client could afford before.</p>
+<h2 id="the-other-question">The other question</h2>
+<p>So if the tool is the same for everyone, what separates people is the question they ask about their own work. Someone speeding up the past asks how to do the same thing with less effort. Someone inventing the present asks what is worth doing now that wasn't before, or how to make a problem go away for good instead of solving it every time it comes back. This technology can only go as far as the imagination of the person using it, and imagination rarely strays beyond the list it inherited.</p>
+<p>That's why I think younger people start with an advantage, though a smaller one than people make out. Someone learning a profession today has fewer habits to unlearn, but still inherits what that profession takes for granted, just as I did. And someone mid-career has more to unlearn, but can ask the other question too. All else being equal, experience will always win; what no longer makes sense is hiring someone to repeat the work of the past. In my essay "The End of Software" I wrote that junior roles would disappear. Today I would put it more precisely: the jobs that disappear are the ones built on repeating tasks, and young people will still be hired for everything else. Anyone who spends the day stringing routine tasks together has to change how they work, whatever their age, and their company has to give them time to do it. They will get things wrong at first, just as the person who held the job before them did.</p>
+<h2 id="judgment">Judgment</h2>
+<p>The real objection is judgment. If someone starting out today never does the work by hand, where does their judgment come from? Teachers used to complain that calculators would make us forget how to do arithmetic, and they were right: hardly anyone does long division by hand. Where they went wrong was in what that meant, because judgment was never in the arithmetic; it was in knowing which formula to use. The difference with AI is that it makes mistakes, sometimes with great confidence.</p>
+<p>I don't write code, but I decide how the programs I build for myself should work, and I built that judgment by correcting my agents whenever they got something wrong. I don't have a full answer to how anyone will learn a profession this way, but I do know that the judgment that counts comes from judging the machine rather than repeating what it already does.</p>
+<h2 id="the-bet">The bet</h2>
+<p>I'm not a neutral observer: at Hellomatik we do exactly this kind of work for other companies, the kind that never used to pay for itself. My bet is that companies swamped with work today will stop being swamped and will put the time they free up into growth, until they are swamped again, but with clients, services and projects they couldn't afford before.</p>
+<p>None of that comes from doing the same old things faster. I try to hold myself to this: every time I automate something, I try to ask what I could do now that I would never have considered before.</p>
+<hr class="hs-rule">
+
+<p class="hs-earlier">Earlier essays by the author: "The higher self", DOI <a href="https://doi.org/10.5281/zenodo.23663934">10.5281/zenodo.23663934</a>; "The End of Software", DOI <a href="https://doi.org/10.5281/zenodo.23468806">10.5281/zenodo.23468806</a>.</p>
+<p class="hs-cite">Cite as: Correa, Isaac. 2026. "Speeding up the past, or inventing the present." Essay, October 27, 2026. https://isaac-correa.github.io/speeding-up-the-past/</p>
+</article>
+</main>
+</div>
+<!--sidebar--><footer class="site-foot"><form class="search" action="/archive/" method="get" role="search"><label class="vh" for="q">Search every idea</label><input id="q" name="q" type="search" placeholder="Search every idea"></form><p class="sub"><a href="https://isaac-correa.beehiiv.com/?modal=signup">Get new ideas by email</a></p><p class="links"><a href="/archive/">Archive</a><a href="/about/">About</a><a href="/writing/">Elsewhere</a><a href="/feed.xml">Feed</a><a href="https://x.com/isaac_correa_">X</a><a href="https://orcid.org/0009-0003-0657-4419">ORCID</a></p><p class="place">Isaac Correa, Madrid. Co-founder of <a href="https://hellomatik.com">Hellomatik</a>.</p></footer><!--/sidebar-->
+</body>
+</html>
