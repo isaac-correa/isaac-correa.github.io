@@ -64,6 +64,13 @@ a:hover{text-decoration-thickness:2px}
 .wrap blockquote{margin:1.8rem 0; padding:0 0 0 1.1rem; border-left:2px solid var(--rule); color:var(--muted)}
 .wrap figure{margin:2.4rem 0}
 .wrap figcaption{font-family:var(--sans); font-size:.8rem; color:var(--muted)}
+
+/* Nothing wider than the reading column: long words wrap, media fits, wide tables and code scroll in place */
+.wrap{overflow-wrap:break-word}
+.wrap img, .wrap video{max-width:100%; height:auto}
+.wrap figure{max-width:100%}
+.wrap pre{max-width:100%; overflow-x:auto}
+.tablewrap{max-width:100%; overflow-x:auto}
 .wrap .date, .wrap .posted{font-family:var(--sans); font-size:.84rem; color:var(--muted)}
 .wrap .posted{margin:0 0 .6rem}
 .wrap .facts, .wrap .toc{background:var(--card)}
