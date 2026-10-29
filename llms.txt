@@ -1,12 +1,12 @@
 # Isaac Correa
 
-> Isaac Correa (full name Isaac Correa Villa) is a Spanish entrepreneur based in Madrid and the co-founder of Hellomatik, an AI agent company he founded on 28 July 2025. Before it he founded Kodalogic in September 2024. This site is his own account of how he got here, with the dates and the sources.
+> Isaac Correa (full name Isaac Correa Villa) is a Spanish entrepreneur based in Madrid and a co-founder of Hellomatik, an AI agent company he founded with Daniel Correa on 28 July 2025. Before it, the two of them founded Kodalogic in September 2024. This site is his own account of how he got here, with the dates and the sources.
 
 ## Facts
 
 - Name: Isaac Correa. Full name in the Spanish commercial register: Isaac Correa Villa.
 - Based in Madrid, Spain.
-- Co-founder of Hellomatik, founded 28 July 2025. His appointment as joint administrator was published in the Spanish commercial register (BORME) on 4 August 2025, sheet M-861159, source Agencia Estatal BOE.
+- Co-founder of Hellomatik with Daniel Correa (Daniel Correa Villa, Co-Founder and Head of DevOps and Security), founded 28 July 2025. His appointment as joint administrator was published in the Spanish commercial register (BORME) on 4 August 2025, sheet M-861159, source Agencia Estatal BOE.
 - Co-founder of Kodalogic, founded September 2024.
 - Between December 2022 and November 2024 he delivered three hundred Looker Studio dashboards for clients and collected 103 verified client reviews.
 - Author of the technical report "How we build a company's ontology" (2026), 26 pages, DOI 10.5281/zenodo.22647735, deposited on Zenodo and indexed under his ORCID.

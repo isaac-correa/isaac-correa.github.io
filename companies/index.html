@@ -105,7 +105,7 @@ footer a{color:var(--link)}
 <header class="masthead"><a class="name" href="/">Isaac Correa</a><nav aria-label="Site"><a href="/archive/">Archive</a><a href="/about/">About</a><a href="https://isaac-correa.beehiiv.com/?modal=signup">Subscribe</a></nav></header>
 <h1>Hellomatik and Kodalogic</h1>
 
-<p class="lead">I have founded two companies in Madrid. This page says plainly what each one does, who it is for, and where the facts about it can be checked. The story of how they came about is <a href="/story/">on another page</a>; this one is the description.</p>
+<p class="lead">I have founded two companies in Madrid, both with Daniel Correa. This page says plainly what each one does, who it is for, and where the facts about it can be checked. The story of how they came about is <a href="/story/">on another page</a>; this one is the description.</p>
 
 <figure>
   <picture><source srcset="/isaac-correa-madrid.webp" type="image/webp"><img src="/isaac-correa-madrid.jpg" width="1200" height="1091" alt="Isaac Correa, co-founder of Hellomatik, in Madrid" loading="lazy"></picture>
@@ -121,9 +121,7 @@ footer a{color:var(--link)}
 
 <p>The method is not described, it is published. <a href="/method/">How we build a company&#8217;s ontology</a> is a 26-page technical report with the DOI <a href="https://doi.org/10.5281/zenodo.22647735">10.5281/zenodo.22647735</a>, deposited in two independent repositories and indexed under my ORCID. It also states the scope: four systems in production, among them a logistics one with 24 rules over a live warehouse, and a B2B sales one that recalculates 29,000 customers.</p>
 
-<p>I founded it on 28 July 2025, at twenty-two. My role is the one I gave myself: I think, and I run the product.</p>
-
-<p>The first client was a large clinic, and how we served them describes the product better than any brochure. We took the whole content of the business and gave it to the agents. Then we set them a goal and an intent, so that they would not merely reply: they had to resolve. Those agents are still running.</p>
+<p>I founded it with Daniel Correa on 28 July 2025, at twenty-two. Daniel is Co-Founder and Head of DevOps and Security; my role is the one I gave myself: I think, and I run the product.</p>
 
 <p>The reference I keep coming back to is an old and deliberately oversized one: HAL 9000 — an entity that understands the whole organisation and helps the people working inside it. I am well aware of the distance between that idea and what any of us can build today; when I started there was barely a tool that did anything like it. But it says the direction better than a roadmap does: a company that stops being only its people and becomes something that listens, understands and acts.</p>
 
@@ -131,7 +129,7 @@ footer a{color:var(--link)}
   <dl>
     <dt>Founded</dt><dd>28 July 2025, Madrid</dd>
     <dt>What it does</dt><dd>Writes a company&#8217;s operating model, then runs AI agents on top of it</dd>
-    <dt>Founder</dt><dd>Isaac Correa</dd>
+    <dt>Founders</dt><dd>Isaac Correa and Daniel Correa</dd>
     <dt>Method</dt><dd><a href="https://doi.org/10.5281/zenodo.22647735">10.5281/zenodo.22647735</a></dd>
     <dt>Site</dt><dd><a href="https://hellomatik.com">hellomatik.com</a></dd>
   </dl>
@@ -143,7 +141,7 @@ footer a{color:var(--link)}
 
 <p>The catalogue is deliberately small: <a href="https://kodalogic.com">six finished dashboards</a>, each connected to the client&#8217;s own data. They are distilled from three hundred dashboards built one commission at a time, because those commissions kept asking the same questions of the same data and starting from the same blank canvas. Building the same report three hundred times is a poor way to spend three hundred people&#8217;s money.</p>
 
-<p>I founded it in Madrid in September 2024, and I wrote <a href="https://kodalogic.com/blog/why-we-created-kodalogic---the-future-of-looker-studio-reports">the founding note</a> in March 2025 explaining where it came from. He builds the platform; I sell and run the business. Everything Kodalogic has sold came from appearing in search results, and that took articles and patience: I wrote 58 of them, all signed.</p>
+<p>Daniel Correa and I founded it in Madrid in September 2024, and I wrote <a href="https://kodalogic.com/blog/why-we-created-kodalogic---the-future-of-looker-studio-reports">the founding note</a> in March 2025 explaining where it came from. Daniel builds the platform; I sell and run the business. Everything Kodalogic has sold came from appearing in search results, and that took articles and patience: I wrote 58 of them, all signed.</p>
 
 <div class="facts">
   <dl>
@@ -208,9 +206,23 @@ footer a{color:var(--link)}
       "name": "Hellomatik",
       "url": "https://hellomatik.com",
       "foundingDate": "2025-07-28",
-      "foundingLocation": { "@type": "Place", "address": { "@type": "PostalAddress", "addressLocality": "Madrid", "addressCountry": "ES" } },
+      "foundingLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Madrid",
+          "addressCountry": "ES"
+        }
+      },
       "description": "Hellomatik builds a digital twin of entire companies and puts it to work with AI agents. Its platform, HM-2, brings everything a company runs into one place (its business systems, databases, email, machines and external sources) and turns it into a living picture of how the company operates and makes decisions.",
-      "founder": { "@id": "https://isaac-correa.github.io/#isaac-correa" }
+      "founder": [
+        {
+          "@id": "https://isaac-correa.github.io/#isaac-correa"
+        },
+        {
+          "@id": "https://hellomatik.com/#daniel-correa"
+        }
+      ]
     },
     {
       "@type": "Organization",
@@ -218,9 +230,44 @@ footer a{color:var(--link)}
       "name": "Kodalogic",
       "url": "https://kodalogic.com",
       "foundingDate": "2024-09",
-      "foundingLocation": { "@type": "Place", "address": { "@type": "PostalAddress", "addressLocality": "Madrid", "addressCountry": "ES" } },
+      "foundingLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Madrid",
+          "addressCountry": "ES"
+        }
+      },
       "description": "Kodalogic sells ready-made Looker Studio reporting templates for GA4, Google Search Console and Google Ads, with the interpretation written next to each chart.",
-      "founder": { "@id": "https://isaac-correa.github.io/#isaac-correa" }
+      "founder": [
+        {
+          "@id": "https://isaac-correa.github.io/#isaac-correa"
+        },
+        {
+          "@id": "https://hellomatik.com/#daniel-correa"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://hellomatik.com/#daniel-correa",
+      "name": "Daniel Correa Villa",
+      "givenName": "Daniel",
+      "familyName": "Correa Villa",
+      "jobTitle": "Co-Founder and Head of DevOps and Security",
+      "worksFor": {
+        "@id": "https://hellomatik.com/#organizacion"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/daniel-correa-villa/",
+        "https://github.com/danielcorrea-hellomatik",
+        "https://doi.org/10.5281/zenodo.20357376",
+        "https://doi.org/10.5281/zenodo.20411979",
+        "https://doi.org/10.5281/zenodo.21469506",
+        "https://doi.org/10.5281/zenodo.21469790",
+        "https://librebor.me/borme/persona/correa-villa-daniel/",
+        "https://www.empresia.es/persona/correa-villa-daniel/"
+      ]
     },
     {
       "@type": "Person",
@@ -228,9 +275,16 @@ footer a{color:var(--link)}
       "name": "Isaac Correa",
       "alternateName": "Isaac Correa Villa",
       "url": "https://isaac-correa.github.io/",
-      "jobTitle": "Founder",
+      "jobTitle": "Co-founder",
       "identifier": "https://orcid.org/0009-0003-0657-4419",
-      "worksFor": [{ "@id": "https://hellomatik.com/#organizacion" }, { "@id": "https://kodalogic.com/#organization" }],
+      "worksFor": [
+        {
+          "@id": "https://hellomatik.com/#organizacion"
+        },
+        {
+          "@id": "https://kodalogic.com/#organization"
+        }
+      ],
       "image": {
         "@type": "ImageObject",
         "contentUrl": "https://isaac-correa.github.io/isaac-correa-madrid.jpg",
@@ -239,18 +293,30 @@ footer a{color:var(--link)}
         "height": 1091,
         "caption": "Isaac Correa, co-founder of Hellomatik, in Madrid",
         "representativeOfPage": true
+      },
+      "colleague": {
+        "@id": "https://hellomatik.com/#daniel-correa"
       }
     },
     {
       "@type": "WebPage",
       "@id": "https://isaac-correa.github.io/companies/",
       "url": "https://isaac-correa.github.io/companies/",
-      "name": "Hellomatik and Kodalogic \u2014 the companies Isaac Correa founded",
+      "name": "Hellomatik and Kodalogic — the companies Isaac Correa founded",
       "inLanguage": "en",
       "datePublished": "2026-09-09",
-      "dateModified": "2026-09-09",
-      "about": [{ "@id": "https://hellomatik.com/#organizacion" }, { "@id": "https://kodalogic.com/#organization" }],
-      "mainEntity": { "@id": "https://isaac-correa.github.io/#isaac-correa" }
+      "dateModified": "2026-10-29",
+      "about": [
+        {
+          "@id": "https://hellomatik.com/#organizacion"
+        },
+        {
+          "@id": "https://kodalogic.com/#organization"
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://isaac-correa.github.io/#isaac-correa"
+      }
     }
   ]
 }
