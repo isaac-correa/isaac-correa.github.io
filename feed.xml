@@ -5,9 +5,17 @@
   <link href="https://isaac-correa.github.io/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://isaac-correa.github.io/" rel="alternate" type="text/html"/>
   <id>https://isaac-correa.github.io/</id>
-  <updated>2026-10-27T12:00:00Z</updated>
+  <updated>2026-10-29T12:00:00Z</updated>
   <author><name>Isaac Correa</name><uri>https://isaac-correa.github.io/</uri></author>
   <rights>Free to quote with attribution to Isaac Correa.</rights>
+  <entry>
+    <title>The Last Tool</title>
+    <link href="https://isaac-correa.github.io/the-last-tool/" rel="alternate" type="text/html"/>
+    <id>https://isaac-correa.github.io/the-last-tool/</id>
+    <updated>2026-10-29T12:00:00Z</updated>
+    <author><name>Isaac Correa</name><uri>https://isaac-correa.github.io/</uri></author>
+    <summary type="text">Isaac Correa on how we will work in ten or fifteen years, and the tool we will work with: an agent that does the work and that you direct. The one thing you cannot hand over is knowing when it is wrong.</summary>
+  </entry>
   <entry>
     <title>Speeding up the past, or inventing the present</title>
     <link href="https://isaac-correa.github.io/speeding-up-the-past/" rel="alternate" type="text/html"/>
