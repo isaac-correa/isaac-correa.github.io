@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
   <loc>https://isaac-correa.github.io/</loc>
-  <lastmod>2026-10-28</lastmod>
+  <lastmod>2026-10-29</lastmod>
   <image:image>
     <image:loc>https://isaac-correa.github.io/isaac-correa.jpg</image:loc>
     <image:title>Isaac Correa</image:title>
@@ -54,7 +54,7 @@
 </url>
 <url>
   <loc>https://isaac-correa.github.io/companies/</loc>
-  <lastmod>2026-10-19</lastmod>
+  <lastmod>2026-10-29</lastmod>
   <image:image>
     <image:loc>https://isaac-correa.github.io/isaac-correa-madrid.jpg</image:loc>
     <image:title>Isaac Correa</image:title>
