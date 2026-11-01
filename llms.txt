@@ -17,7 +17,7 @@
 
 His most recent pieces, newest first, each with its date; the ones deposited on Zenodo carry their DOI.
 
-- [The Death of Search](https://isaac-correa.github.io/the-death-of-search/): November 2026. Why searching the web the old way is ending, what it does to the mind of someone who stops searching, and where it may lead.
+- [The Death of Search](https://isaac-correa.github.io/the-death-of-search/): November 2026. Why searching the web the old way is ending, what it does to the mind of someone who stops searching, and where it may lead. PDF: https://isaac-correa.github.io/the-death-of-search-isaac-correa.pdf. DOI 10.5281/zenodo.23863805.
 - [The Last Tool](https://isaac-correa.github.io/the-last-tool/): October 2026. Isaac Correa's essay, October 2026: the tool we work with becomes an agent that does the work and that you direct. What that changes, and the one thing you can't hand over. PDF: https://isaac-correa.github.io/the-last-tool-isaac-correa.pdf. DOI 10.5281/zenodo.23762228.
 - [Speeding up the past, or inventing the present](https://isaac-correa.github.io/speeding-up-the-past/): October 2026. Most people use AI to do the same work faster. Isaac Correa argues the real change is the work that was never worth doing, and explains why even people who started out with AI miss it. PDF: https://isaac-correa.github.io/speeding-up-the-past-isaac-correa.pdf. DOI 10.5281/zenodo.23702117.
 - [The higher self](https://isaac-correa.github.io/higher-self/): October 2026. Isaac Correa's essay, October 2026: teaching an AI agent your way of working builds a copy of you. Whether it replaces you or works for you depends on who owns it. PDF: https://isaac-correa.github.io/the-higher-self-isaac-correa.pdf. DOI 10.5281/zenodo.23663934.
