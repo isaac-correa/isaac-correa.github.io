@@ -29,6 +29,43 @@
 <header class="masthead"><a class="name" href="/">Isaac Correa</a><nav aria-label="Site"><a href="/archive/">Archive</a><a href="/about/">About</a><a href="https://isaac-correa.beehiiv.com/?modal=signup">Subscribe</a></nav></header>
 <main>
 <article class="post">
+<p class="post-date"><a href="/cliff/"><time datetime="2026-09-11">September 11, 2026</time></a></p>
+<h2 class="post-title"><a href="/cliff/">The cliff of innovation</a></h2>
+<div class="post-body">
+<p class="lead">There is a point in building something new where the hard part changes. I am Isaac Correa, co-founder of Hellomatik, and I have a name for it: the cliff of innovation. This is what it is, why we walked toward it, and what we found at the edge.</p>
+
+<h2>The easy road</h2>
+
+<p>When Hellomatik began, the easy road was clear. Take one of the tools that already existed, add our own touch, and sell it. Thousands of companies did exactly that in 2023 and 2024, and there is nothing wrong with the choice: it is fast, and the risk is known in advance.</p>
+
+<p>We went the other way. Each time we tried to take a step forward and see how far a tool like ours could actually go, we got a little closer to a place I started calling the cliff.</p>
+
+<h2>Where the cliff is</h2>
+
+<p>The cliff of innovation is the point where what you want to make is either not invented yet, or has to be assembled from so many different parts that the difficulty stops being building it. The difficulty becomes integrating it: putting the parts together well enough that what you have looks like one ecosystem, and not like a Frankenstein.</p>
+
+<p>That is the whole definition, and it took me a while to see how much it explains. Most of the parts exist. A model that understands speech, a model that understands language, a database, a phone line, a calendar, a mailbox. What does not exist, for any given company, is the thing that makes those parts behave like one system that knows that company: what is true, which rules it already follows, which actions can be undone, who is allowed to approve what.</p>
+
+<h2>Why integration is the real work</h2>
+
+<p>Bolting parts together is easy and it shows. You can tell a Frankenstein from across the room: every seam is visible, every part has its own idea of what a customer is, and the person using it has to translate between them in their head. An ecosystem is the opposite. The seams are inside, the parts agree about the world, and the person using it only has to say what they want.</p>
+
+<p>Getting from the first to the second is where most of our year went, and it is why we published <a href="/method/">the method as a technical report with a DOI</a> rather than as a list of features. Features are the parts. The method is the integration, written down so that somebody else can check it.</p>
+
+<h2>The last person</h2>
+
+<p>Standing at the cliff, you also find out what a tool like this is really limited by. It is not the model, and it is not the computing power; both get better every month without any help from us. I said it once without planning to, and it has stayed true since: the possibilities end where the creativity of the last person who uses it ends.</p>
+
+<p>A tool that can act inside a company can only do what somebody inside that company thought to ask of it. Which leaves two jobs. The product&rsquo;s job is to make asking easy. The company&rsquo;s job is to have <a href="/people/">people who ask</a>.</p>
+
+<h2>The long version</h2>
+
+<p>This page is the short version. The argument in full, with the four things that are missing in every company, the five seams of a badly integrated system, a worked example of the permission table, the scope the method is running on, three predictions dated for 2028 and the paper&rsquo;s own limits, is a nine-page working paper: <a href="/the-cliff-of-innovation-isaac-correa.pdf">The cliff of innovation: why integration, not construction, is the hard part of building a system that acts inside a company</a> (PDF, September 2026, self-published, not peer reviewed). It is deposited on Zenodo with a DOI, <a href="https://doi.org/10.5281/zenodo.22704763">10.5281/zenodo.22704763</a>, so the file will still resolve when this site does not.</p>
+
+<p>Isaac Correa, Madrid. ORCID <a href="https://orcid.org/0009-0003-0657-4419">0009-0003-0657-4419</a>.</p>
+</div>
+</article>
+<article class="post">
 <p class="post-date"><a href="/one-person/"><time datetime="2026-09-11">September 11, 2026</time></a></p>
 <h2 class="post-title"><a href="/one-person/">A product is aimed at one person, or at nobody</a></h2>
 <div class="post-body">
@@ -539,86 +576,6 @@
 <p>When the answers do agree, the next list is not another question but an inventory: <a href="/actions/">which actions can be undone</a>, and who would undo them.</p>
 
 <p>None of this needs me, or software, or a budget. It needs an afternoon and somebody willing to write down an inconvenient answer. The longer version of why is <a href="/rules/">here</a>, the vocabulary is <a href="/glossary/">here</a>, and the method these come from is published <a href="/method/">with a DOI</a>.</p>
-</div>
-</article>
-<article class="post">
-<p class="post-date"><a href="/method/"><time datetime="2026-09-09">September 9, 2026</time></a></p>
-<h2 class="post-title"><a href="/method/">How we build a company&#8217;s ontology</a></h2>
-<div class="post-body">
-<p class="lead">In September 2026 we published the method Hellomatik uses as a technical report with a DOI, deposited in two independent repositories and indexed under my ORCID. This page says what is in it and where to read it.</p>
-
-<figure>
-  <picture><source srcset="/isaac-correa-madrid.webp" type="image/webp"><img src="/isaac-correa-madrid.jpg" width="1200" height="1091" alt="Isaac Correa, co-founder of Hellomatik, in Madrid" loading="lazy"></picture>
-  <figcaption>Isaac Correa in Madrid. The method described here is published as a technical report with the DOI 10.5281/zenodo.22647735.</figcaption>
-</figure>
-
-<h2>Why a DOI and not a whitepaper</h2>
-<p>A technical report can be cited, checked and taken apart. A DOI puts a fixed, dated version of the text in a repository that is not ours, so anyone can quote it and it does not depend on us keeping a link alive.</p>
-<p>The people we want reading it are operations directors, systems people, the person in a company who is quietly responsible for the ERP. They read papers.</p>
-
-<h2>What is in it</h2>
-<p>The report goes layer by layer. It starts with the data of the company and which system each piece comes from. Then the rules the company already decides by, written so that an agent can apply them rather than guess. Then the actions: what can be done, with what parameters, leaving what record. And last, permissions: who, or which agent, can go how far, and which actions wait for a signature.</p>
-<figure class="fig">
-<svg class="figsvg" viewBox="0 0 720 340" role="img" aria-labelledby="f3t f3d"
-     xmlns="http://www.w3.org/2000/svg">
-  <title>The four layers the report goes through, in order</title>
-  <desc>Four layers, written in this order: the data of the company and which system each piece comes from; the rules the company already decides by; the actions it may take; and who may approve what. An agent acts only through the layer above it, and each layer can only refer to the one below, so nothing can be automated before what it rests on has been written down.</desc>
-  <g font-family="ui-sans-serif, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif">
-
-    <rect x="8" y="22" width="470" height="56" fill="none" stroke="var(--ink)" stroke-width="1.2" stroke-dasharray="4 4"/>
-    <text x="28" y="46" font-size="12.5" font-weight="600" fill="var(--ink)">The agent</text>
-    <text x="28" y="65" font-size="11.5" fill="var(--muted)">answers, watches and executes &#8212; but only through what is below</text>
-
-    <line x1="243" y1="78" x2="243" y2="96" stroke="var(--ink)" stroke-width="1.2"/>
-    <path d="M243 104 l-5 -10 h10 z" fill="var(--ink)"/>
-    <text x="257" y="96" font-size="11" fill="var(--muted)">acts through the four</text>
-    <rect x="8" y="106" width="470" height="50" fill="var(--card)"/>
-    <text x="28" y="128" font-size="12.5" font-weight="600" fill="var(--ink)">Permissions</text>
-    <text x="28" y="146" font-size="11.5" fill="var(--muted)">who may approve what, with a name and a date</text>
-
-    <rect x="8" y="164" width="470" height="50" fill="var(--card)"/>
-    <text x="28" y="186" font-size="12.5" font-weight="600" fill="var(--ink)">Actions</text>
-    <text x="28" y="204" font-size="11.5" fill="var(--muted)">what the company may actually do in the world</text>
-
-    <rect x="8" y="222" width="470" height="50" fill="var(--card)"/>
-    <text x="28" y="244" font-size="12.5" font-weight="600" fill="var(--ink)">Rules</text>
-    <text x="28" y="262" font-size="11.5" fill="var(--muted)">what it already decides by, written in one line each</text>
-
-    <rect x="8" y="280" width="470" height="50" fill="var(--card)"/>
-    <line x1="8" y1="332" x2="478" y2="332" stroke="var(--link)" stroke-width="2"/>
-    <text x="28" y="302" font-size="12.5" font-weight="600" fill="var(--ink)">Data</text>
-    <text x="28" y="320" font-size="11.5" fill="var(--muted)">and which system each piece of it comes from</text>
-
-    <line x1="502" y1="114" x2="502" y2="322" stroke="var(--rule)" stroke-width="1.2"/>
-    <path d="M502 106 l-5 10 h10 z" fill="var(--rule)"/>
-    <text x="524" y="116" font-size="11.5" fill="var(--muted)">The order it has to</text>
-    <text x="524" y="134" font-size="11.5" fill="var(--muted)">be written in: each one</text>
-    <text x="524" y="152" font-size="11.5" fill="var(--muted)">rests on the one</text>
-    <text x="524" y="170" font-size="11.5" fill="var(--muted)">below it.</text>
-    
-    <line x1="478" y1="298" x2="514" y2="298" stroke="var(--rule)" stroke-width="1"/>
-    <text x="524" y="302" font-size="11.5" fill="var(--muted)">Nothing sits below this one.</text>
-  </g>
-</svg>
-<figcaption>The order the report goes in. Nothing above can be automated before the thing it rests on has been written down &mdash; which is why the first week of this work is a conversation and not an installation.</figcaption>
-</figure>
-
-<p>It also describes what we have running today: four systems in production, including a logistics one with 24 rules over a live warehouse and a B2B sales one that recalculates 29,000 customers. A method with its scope written down is a method.</p>
-
-<div class="facts">
-  <dl>
-    <dt>Title</dt><dd>How we build a company&#8217;s ontology (2026)</dd>
-    <dt>Author</dt><dd>Isaac Correa</dd>
-    <dt>Length</dt><dd>26 pages</dd>
-    <dt>PDF</dt><dd><a href="/how-we-build-a-companys-ontology-isaac-correa.pdf">Read the report (PDF)</a></dd>
-    <dt>DOI</dt><dd><a href="https://doi.org/10.5281/zenodo.22647735">10.5281/zenodo.22647735</a></dd>
-    <dt>Also on</dt>
-<dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442444">SSRN</a> &mdash; posted 10 September 2026, 26 pages. Posted means it is in the SSRN library and can be downloaded; it does not mean anybody reviewed it.</dd>
-<dt>ORCID</dt><dd><a href="https://orcid.org/0009-0003-0657-4419">0009-0003-0657-4419</a></dd>
-  </dl>
-</div>
-
-<p>The story of how the method came about is <a href="/story/">here</a>.</p>
 </div>
 </article>
 </main>
