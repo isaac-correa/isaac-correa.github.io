@@ -1,0 +1,62 @@
+name: IndexNow
+
+# On every push to main, tell IndexNow (Bing, Yandex, DuckDuckGo, and other
+# participating engines) about the pages whose HTML changed in the push, so they
+# re-crawl them almost immediately. Google does not take part in IndexNow.
+# The key is the public file served at /<key>.txt in the site root.
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Submit changed URLs to IndexNow
+        env:
+          KEY: aea41333adad77492062e5430477a325
+          HOST: isaac-correa.github.io
+        run: |
+          set -euo pipefail
+          BASE="https://$HOST"
+          KEYLOC="$BASE/$KEY.txt"
+
+          BEFORE='${{ github.event.before }}'
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            CHANGED=$(git show --name-only --format= HEAD)
+          else
+            CHANGED=$(git diff --name-only "$BEFORE" "${{ github.sha }}")
+          fi
+
+          URLS=$(printf '%s\n' "$CHANGED" | awk -v base="$BASE" '
+            /(^|\/)index\.html$/ { sub(/index\.html$/, ""); print base "/" $0; next }
+            /\.html$/            { print base "/" $0 }
+          ' | sort -u)
+
+          if [ -z "$URLS" ]; then
+            echo "No HTML pages changed in this push; nothing to submit."
+            exit 0
+          fi
+
+          echo "Submitting these URLs to IndexNow:"
+          printf '%s\n' "$URLS"
+
+          ARR=$(printf '%s\n' "$URLS" | jq -R . | jq -s .)
+          BODY=$(jq -n --arg h "$HOST" --arg k "$KEY" --arg l "$KEYLOC" --argjson u "$ARR" \
+            '{host: $h, key: $k, keyLocation: $l, urlList: $u}')
+
+          curl -sS -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "$BODY" -w "\nHTTP %{http_code}\n"
