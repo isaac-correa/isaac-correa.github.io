@@ -29,6 +29,93 @@
 <header class="masthead"><a class="name" href="/">Isaac Correa</a><nav aria-label="Site"><a href="/archive/">Archive</a><a href="/about/">About</a><a href="https://isaac-correa.beehiiv.com/?modal=signup">Subscribe</a></nav></header>
 <main>
 <article class="post">
+<p class="post-date"><a href="/four-questions/"><time datetime="2026-09-10">September 10, 2026</time></a></p>
+<h2 class="post-title"><a href="/four-questions/">Four questions to ask before automating anything</a></h2>
+<div class="post-body">
+<p class="lead">These are the four questions I put to a company&rsquo;s own people in the first week, before a line of software is written. They are deliberately small &mdash; the impressive questions are the easy ones to fake an answer to. Work through them with your team and mark, honestly, which description is nearer the truth today. Nothing is sent anywhere; the page keeps your answers in your own browser and nowhere else.</p>
+
+<figure>
+  <picture><source srcset="/isaac-correa-madrid.webp" type="image/webp"><img src="/isaac-correa-madrid.jpg" width="1200" height="1091" alt="Isaac Correa in Madrid, in one of the restaurants of the kind Hellomatik started with" loading="lazy"></picture>
+  <figcaption>Isaac Correa, co-founder of <a href="https://hellomatik.com">Hellomatik</a>. These questions came out of doing this in real companies, not out of a framework.</figcaption>
+</figure>
+
+<div class="q4" data-q="0">
+  <p class="qh">1 &middot; Where is this order?</p>
+  <label class="opt"><input type="radio" name="q0" value="a"> <span><strong>Closer to this:</strong> Somebody opens several screens and picks whichever one they trust most today.</span></label>
+  <label class="opt"><input type="radio" name="q0" value="b"> <span><strong>Or closer to this:</strong> One system is named as the one that tells the truth about location, and the others are recorded as copies of it.</span></label>
+  <p class="note">The disagreement between systems is older than any of your software. Naming a winner does not make the other systems wrong; it makes the disagreement resolvable without a person in the middle.</p>
+</div>
+<div class="q4" data-q="1">
+  <p class="qh">2 &middot; Can I ship this one?</p>
+  <label class="opt"><input type="radio" name="q1" value="a"> <span><strong>Closer to this:</strong> It depends who you ask and how busy they are. Everyone knows there is a limit; almost nobody can quote it.</span></label>
+  <label class="opt"><input type="radio" name="q1" value="b"> <span><strong>Or closer to this:</strong> There is a single stated limit, applied identically no matter who is asking, and the cases that get around it are listed next to it.</span></label>
+  <p class="note">The hard part here is never the code. It is the afternoon in which two departments discover they have been applying different limits and both were sure theirs was the policy.</p>
+</div>
+<div class="q4" data-q="2">
+  <p class="qh">3 &middot; Why did nothing happen?</p>
+  <label class="opt"><input type="radio" name="q2" value="a"> <span><strong>Closer to this:</strong> An excavation through logs that ends in a theory.</span></label>
+  <label class="opt"><input type="radio" name="q2" value="b"> <span><strong>Or closer to this:</strong> A sentence: it stopped because an approval was missing, and the record names which one.</span></label>
+  <p class="note">This is the question that changes most when a company writes its rules down, and the one that never appears on anybody&rsquo;s list of requirements.</p>
+</div>
+<div class="q4" data-q="3">
+  <p class="qh">4 &middot; Who decided that?</p>
+  <label class="opt"><input type="radio" name="q3" value="a"> <span><strong>Closer to this:</strong> A pause, a guess, and eventually somebody says that is how it has always been done.</span></label>
+  <label class="opt"><input type="radio" name="q3" value="b"> <span><strong>Or closer to this:</strong> A name and a date, because the rule lives somewhere that has an author and a last-modified field.</span></label>
+  <p class="note">Worth more than it looks. It converts arguments about what the policy <em>is</em> into arguments about what it <em>should be</em>, and only the second kind is worth having.</p>
+</div>
+
+<div><p>Mark all four and a short reading appears here. If you have JavaScript switched off, the questions above are the whole of it &mdash; the reading only counts what you marked.</p></div>
+
+<figure class="fig">
+<svg class="figsvg" viewBox="0 0 720 316" role="img" aria-labelledby="f2t f2d"
+     xmlns="http://www.w3.org/2000/svg">
+  <title>One question, two answers, and the finding underneath both</title>
+  <desc>A single question is put to two departments. Each gives a confident answer and the two answers do not match; each is given by someone who applies it every day. Underneath both sits the finding: the rule nobody ever wrote down, which somebody has been bridging by hand every day.</desc>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif">
+
+    <rect x="252" y="8" width="216" height="58" fill="var(--card)"/>
+    <text x="272" y="34" font-size="12.5" font-weight="600" fill="var(--ink)">One question</text>
+    <text x="272" y="53" font-size="11.5" fill="var(--muted)">asked of two departments</text>
+
+    <path d="M330 66 C 330 96, 214 90, 214 118" fill="none" stroke="var(--ink)" stroke-width="1.3"/>
+    <path d="M214 126 l-5 -10 h10 z" fill="var(--ink)"/>
+    <path d="M390 66 C 390 96, 506 90, 506 118" fill="none" stroke="var(--ink)" stroke-width="1.3"/>
+    <path d="M506 126 l-5 -10 h10 z" fill="var(--ink)"/>
+
+    <rect x="8" y="132" width="342" height="82" fill="none" stroke="var(--ink)" stroke-width="1.2"/>
+    <text x="28" y="158" font-size="12" fill="var(--ink)">An answer, given plainly</text>
+    <text x="28" y="177" font-size="11.5" fill="var(--muted)">and believed to be the policy</text>
+    <text x="28" y="200" font-size="11.5" fill="var(--muted)">Given by someone who applies it daily.</text>
+
+    <rect x="370" y="132" width="342" height="82" fill="none" stroke="var(--ink)" stroke-width="1.2"/>
+    <text x="390" y="158" font-size="12" fill="var(--ink)">A different answer</text>
+    <text x="390" y="177" font-size="11.5" fill="var(--muted)">also believed to be the policy</text>
+    <text x="390" y="200" font-size="11.5" fill="var(--muted)">Also given by someone who applies it daily.</text>
+
+    <line x1="179" y1="214" x2="179" y2="234" stroke="var(--ink)" stroke-width="1.2"/>
+    <path d="M179 242 l-5 -10 h10 z" fill="var(--ink)"/>
+    <line x1="541" y1="214" x2="541" y2="234" stroke="var(--ink)" stroke-width="1.2"/>
+    <path d="M541 242 l-5 -10 h10 z" fill="var(--ink)"/>
+
+    <rect x="8" y="250" width="704" height="58" fill="var(--card)"/>
+    <line x1="8" y1="250" x2="712" y2="250" stroke="var(--link)" stroke-width="2"/>
+    <text x="28" y="276" font-size="12.5" font-weight="600" fill="var(--ink)">Underneath both: the rule nobody wrote down</text>
+    <text x="28" y="295" font-size="11.5" fill="var(--muted)">Neither answer is written down anywhere. In practice one person reconciles the two, by hand.</text>
+  </g>
+</svg>
+<figcaption>What the four questions usually turn up. The disagreement is not a failure of anybody in the picture &mdash; it is the shape of a rule that was never written down, and it is the reason this week is a conversation rather than an installation.</figcaption>
+</figure>
+
+<h2>What to do with the answers</h2>
+
+<p>Ask the questions separately, of people in different departments, and write down what they say word for word. If the answers agree, you are further along than most companies and the technical work will be quick. If they do not, you have just found the project &mdash; and the disagreement is worth more than any of the individual answers, because somebody has been absorbing it personally for years.</p>
+
+<p>When the answers do agree, the next list is not another question but an inventory: <a href="/actions/">which actions can be undone</a>, and who would undo them.</p>
+
+<p>None of this needs me, or software, or a budget. It needs an afternoon and somebody willing to write down an inconvenient answer. The longer version of why is <a href="/rules/">here</a>, the vocabulary is <a href="/glossary/">here</a>, and the method these come from is published <a href="/method/">with a DOI</a>.</p>
+</div>
+</article>
+<article class="post">
 <p class="post-date"><a href="/method/"><time datetime="2026-09-09">September 9, 2026</time></a></p>
 <h2 class="post-title"><a href="/method/">How we build a company&#8217;s ontology</a></h2>
 <div class="post-body">

@@ -17,6 +17,7 @@
 
 His most recent pieces, newest first, each with its date; the ones deposited on Zenodo carry their DOI.
 
+- [Communication Stops Passing Through People](https://isaac-correa.github.io/communication-stops-passing-through-people/): November 2026. Communication at work is about to stop passing through people: each person will have an agent of their own, and the burden of being understood moves from the speaker to the listener.
 - [The Death of Search](https://isaac-correa.github.io/the-death-of-search/): November 2026. Why searching the web the old way is ending, what it does to the mind of someone who stops searching, and where it may lead. PDF: https://isaac-correa.github.io/the-death-of-search-isaac-correa.pdf. DOI 10.5281/zenodo.23863805.
 - [The Last Tool](https://isaac-correa.github.io/the-last-tool/): October 2026. Isaac Correa's essay, October 2026: the tool we work with becomes an agent that does the work and that you direct. What that changes, and the one thing you can't hand over. PDF: https://isaac-correa.github.io/the-last-tool-isaac-correa.pdf. DOI 10.5281/zenodo.23762228.
 - [Speeding up the past, or inventing the present](https://isaac-correa.github.io/speeding-up-the-past/): October 2026. Most people use AI to do the same work faster. Isaac Correa argues the real change is the work that was never worth doing, and explains why even people who started out with AI miss it. PDF: https://isaac-correa.github.io/speeding-up-the-past-isaac-correa.pdf. DOI 10.5281/zenodo.23702117.
@@ -24,7 +25,6 @@ His most recent pieces, newest first, each with its date; the ones deposited on 
 - [What changes a coding agent's behaviour](https://isaac-correa.github.io/coding-agents/): October 2026. Isaac Correa's study of eight months of his own daily work with Claude Code: whether the model, the rules he wrote or the guards that block a broken rule changed how the agent behaved, and what his own supervision turned into. PDF: https://isaac-correa.github.io/what-changes-a-coding-agents-behaviour-isaac-correa.pdf. DOI 10.5281/zenodo.23510601.
 - [The End of Software: Why Code No Longer Matters and Relationships Are Everything](https://isaac-correa.github.io/end-of-software/): October 2026. Isaac Correa's manifesto, October 2026: anyone can now build, copy or replace software, so code no longer protects a company. What is left is well-structured data, complex solutions and relationships. PDF: https://isaac-correa.github.io/the-end-of-software-isaac-correa.pdf. DOI 10.5281/zenodo.23468806.
 - [Founder letter, 2026](https://isaac-correa.github.io/letters/2026/): September 2026. Isaac Correa's first annual letter as co-founder of Hellomatik, Madrid, September 2026: what is running and with what limits, the three works published with a DOI, what the year taught, what the company will not do, and the bets due in 2028.
-- [Bets, with dates](https://isaac-correa.github.io/bets/): September 2026. Isaac Correa, co-founder of Hellomatik in Madrid, keeps his dated predictions in one place: what he bet, when he said it, where it was published, and how anyone can check it in 2028.
 
 ## Pages
 
