@@ -29,6 +29,18 @@
 <header class="masthead"><a class="name" href="/">Isaac Correa</a><nav aria-label="Site"><a href="/archive/">Archive</a><a href="/about/">About</a><a href="https://isaac-correa.beehiiv.com/?modal=signup">Subscribe</a></nav></header>
 <main>
 <article class="post">
+<p class="post-date"><a href="/the-map-of-a-company/"><time datetime="2026-09-11">September 11, 2026</time></a></p>
+<h2 class="post-title"><a href="/the-map-of-a-company/">The map of a company</a></h2>
+<div class="post-body">
+<p class="eyebrow">What a business has to write down before software may act inside it, and what changes once it has</p>
+
+<p class="lead">I am Isaac Correa, co-founder of Hellomatik, in Madrid. Since 2025 I have been publishing the pieces of one argument in separate places: a technical report with a DOI, two working papers, and a set of short pages on this site. This essay puts the pieces in one order.</p>
+
+<p>It says what I think a company has to write down before software may act inside it, why almost no company has written it, what the writing costs, and what changes once it exists. Everything in it comes from those published documents or from the sources they cite; where a figure comes from a client system, it is stated with what it does not show.<sup class="fn"><a href="/the-map-of-a-company/#n1">1</a></sup></p>
+<p class="more"><a href="/the-map-of-a-company/">Continue reading</a></p>
+</div>
+</article>
+<article class="post">
 <p class="post-date"><a href="/people/"><time datetime="2026-09-11">September 11, 2026</time></a></p>
 <h2 class="post-title"><a href="/people/">The people I look for</a></h2>
 <div class="post-body">
@@ -469,61 +481,6 @@
 <h2>What we run today</h2>
 
 <p>The report states the scope rather than implying it: four systems in production, among them a logistics one with 24 rules over live warehouse and ERP data, with over 30 million operations and 460,000 locations, and a B2B sales one that recalculates 29,000 customers nightly over 14 million sales lines. A method with its scope written down is a method.</p>
-
-<p>Isaac Correa, Madrid. ORCID <a href="https://orcid.org/0009-0003-0657-4419">0009-0003-0657-4419</a>.</p>
-</div>
-</article>
-<article class="post">
-<p class="post-date"><a href="/rules/"><time datetime="2026-09-10">September 10, 2026</time></a></p>
-<h2 class="post-title"><a href="/rules/">Your company already has rules. Nobody ever wrote them down.</a></h2>
-<div class="post-body">
-<p class="lead">There is a moment in almost every automation project that nobody puts in the brochure. It happens in week one, it has nothing to do with technology, and it is usually the most valuable thing that will happen all quarter.</p>
-
-<figure>
-  <picture><source srcset="/isaac-correa-madrid.webp" type="image/webp"><img src="/isaac-correa-madrid.jpg" width="1200" height="1091" alt="Isaac Correa in Madrid, where Hellomatik is based" loading="lazy"></picture>
-  <figcaption>Isaac Correa in Madrid. The week described here is the one he spends before writing any software: asking people what the rule actually is, and writing down the answers that disagree.</figcaption>
-</figure>
-
-
-<p>You ask two people the same question &mdash; when does an order need a second approval? &mdash; and you get two different answers. Both people are competent. Both have been doing the job for years. Both are certain. And the company has been running on that disagreement for as long as anyone can remember, absorbing it the way a body absorbs a limp.</p>
-
-<p>Nobody was hiding anything. The rule simply lived in people&rsquo;s heads, where rules do not have to agree with each other.</p>
-
-<h2>Why this surfaces now and not before</h2>
-
-<p>Software has been eating business processes for thirty years without forcing this reckoning, because software was always told exactly what to do. A form either has an approval field or it does not. The ambiguity stayed comfortably upstream, in the humans deciding which form to open.</p>
-
-<p>Ask a system to decide, and the ambiguity has nowhere left to hide. Not because the technology is smarter, but because you now have to state the rule out loud to a thing that cannot read a room.</p>
-
-<h2>The unglamorous inventory</h2>
-
-<p>So the work starts somewhere nobody expects: making a list.</p>
-
-<p>Which things exist &mdash; orders, customers, invoices, shipments &mdash; and which system tells the truth about each one. That last part sounds like bookkeeping and is not. The same order lives in three systems in most companies, and the three do not match. Until you name which one is authoritative, every clever thing you build downstream inherits the argument.</p>
-
-<p>Then the rules. Not new policy &mdash; the policy people already follow, written so that something other than a person can evaluate it. A discount past a certain depth stops being the sales rep&rsquo;s call. An account in arrears waits for someone senior before anything leaves the warehouse.</p>
-
-<p>Then, and only then, the interesting part.</p>
-
-<h2>The part that decides whether it is safe</h2>
-
-<p>Every action a system can take is tagged with two facts: whether it can be walked back, and whose signature it needs.</p>
-
-<p>Drafting a reply costs nothing and can be thrown away. Moving money is final the moment it happens. Once that distinction is written down rather than assumed, you can hand a system genuine independence over the reversible half of the work without ever having the frightening conversation about the other half.</p>
-
-<p>This is the step that turns a security review from a confrontation into a reading. You are not asking anyone to trust a piece of software&rsquo;s judgment. You are showing them a table of permissions that the business itself signed off, and pointing out that the software cannot go around it.</p>
-
-<h2>What the company gets even if the project stops</h2>
-
-<p>Here is the case for doing the inventory regardless of what you think about AI.</p>
-
-<p>At the end of it, a company that had its operating logic distributed across a few dozen heads has it written in one place. It survives someone leaving. It can be argued with, corrected and versioned. New people can read it instead of absorbing it slowly over their first year.</p>
-
-<p>That has been valuable since long before anyone used the word agent, and it will still be valuable when the current generation of tools is embarrassing to look at.</p>
-
-<p>The rest &mdash; the automation, the agents, the part that demos well &mdash; sits on top of it. It is real, and it works, and it is not the foundation. The foundation is the boring list.</p>
-
-<p>The full method behind this is published as a technical report with a DOI rather than a brochure: <a href="/method/">how we build a company&rsquo;s ontology</a>, deposited at <a href="https://doi.org/10.5281/zenodo.22647735">10.5281/zenodo.22647735</a>.</p>
 
 <p>Isaac Correa, Madrid. ORCID <a href="https://orcid.org/0009-0003-0657-4419">0009-0003-0657-4419</a>.</p>
 </div>
