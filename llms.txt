@@ -98,7 +98,7 @@ His most recent pieces, newest first, each with its date; the ones deposited on 
 - Peerlist: https://peerlist.io/isaaccorrea
 - Product Hunt: https://www.producthunt.com/@isaac_correa
 - F6S: https://www.f6s.com/isaac-correa
-- HackerNoon: https://hackernoon.com/u/IsaacCorrea_k24cceus
+- HackerNoon: https://hackernoon.com/u/isaaccorrea
 - ResearchGate: https://www.researchgate.net/profile/Isaac-Correa-4
 - SSRN: "How we build a company's ontology" is posted since 10 September 2026 at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442444 (26 pages, downloadable). "The machine of the future" was submitted the same day and its page is not public yet. Posted on SSRN means it is in the library, not that it was reviewed.
   - The Machine of the Future: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442403
