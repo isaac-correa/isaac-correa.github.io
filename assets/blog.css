@@ -40,6 +40,7 @@ a:hover{text-decoration-thickness:2px}
   font-family:var(--serif); font-size:1.45rem; font-weight:600; letter-spacing:-.01em;
   color:var(--ink); text-decoration:none;
 }
+.masthead h1.masthead-name{margin:0; padding:0; font:inherit; letter-spacing:inherit; color:inherit; text-wrap:initial}
 .masthead nav{display:flex; gap:1.3rem; font-size:.84rem}
 .masthead nav a{color:var(--muted); text-decoration:none}
 .masthead nav a:hover{color:var(--ink)}
